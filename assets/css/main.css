@@ -1,3 +1,27 @@
+
+
+body {
+  color: #fff
+}
+
+h1 {
+  color: #ffde16;
+}
+h2 {
+  color: #ffde16;
+}
+
+a {
+  color: #ffde16;
+  text-decoration: none;
+  border-bottom: 2px solid #ffde16;
+  transition: .5s ease;
+}
+
+a:hover, a:focus, a:active {
+  color: #ffde16;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -56,13 +80,6 @@ footer.footer .social-link:hover {
   text-decoration: none;
 }
 
-a {
-  color: #1D809F;
-}
-
-a:hover, a:focus, a:active {
-  color: #155d74;
-}
 
 .btn-primary {
   background-color: #1D809F !important;
