@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: sunrise-bay-area/sunrise-bay-area
-  branch: origin/hugoify
+  branch: hugoify
 media_folder: static/img
 public_folder: /img
 collections:
