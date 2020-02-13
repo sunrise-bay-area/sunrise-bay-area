@@ -1,5 +1,3 @@
-
-
 body {
   color: #fff
 }
@@ -30,7 +28,7 @@ a:hover, a:focus, a:active {
   height: 100vh;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../2019-08-24-West-Summit.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/2019-08-24-West-Summit.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
