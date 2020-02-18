@@ -1,0 +1,19 @@
+dist: xenial
+addons:
+  snaps:
+    - hugo
+
+# Renders website to public folder
+script:
+  - hugo
+
+# Pushes contents of public folder to gh-pages branch in current repo
+deploy:
+  provider: pages
+  skip_cleanup: true
+  target_branch: gh-pages
+  local_dir: public
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
