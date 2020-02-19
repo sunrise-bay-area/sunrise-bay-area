@@ -31,6 +31,15 @@ Finally, once approved, you can move your PR to the "reviewer approved" column a
 
 If you need assistance with any part of this process, please feel free to request help in #hub-website! We are super excited to have folks contribute to the website, and are happy to help you get started.
 
+## Documentation
+
+We strive to maintain clear documenation for both developers and other Sunrise members.
+
+For developers, we maintain documentation on local development in this repo's [README](./README.md). When contributing new tooling,
+please make sure to update the README so that other contributors can set up easily.
+
+For other Sunrise members, we take notes of discussion topics and decisions at our fortnightly video meetings. Please join the #hub-website channel for access to the notes.
+
 ## Development Philosophies
 
 Our development philosophies are a work in progress, that we hope to expand as our project progresses.
