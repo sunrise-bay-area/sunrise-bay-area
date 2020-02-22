@@ -1,6 +1,6 @@
 # Sunrise Bay Area's hub website
 
-[https://sfbay.sunrisemovement.org/](See the hub website live!)
+[See the hub website live!](https://sfbay.sunrisemovement.org/)
 
 ## Contributing
 
