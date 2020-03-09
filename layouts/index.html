@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
 
-  <title>Sunrise Bay Area</title>
+  <title>{{.Title}}</title>
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -21,18 +21,15 @@
   <!-- Header -->
   <div class="header masthead" id="header">
     <div class="container">
-      <h1 id="title-text"><span>Welcome to the Bay Area Hub of the Sunrise Movement</span></h1>
+      <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
     </div>
   </div>
 
 
   <!-- Who We Are -->
-  <div class="section" id="who-we-are">
+  <section class="section" id="who-we-are">
     <div class="container">
-      <h2>Who We Are</h2>
-      <p>Sunrise is a national movement to stop climate change and create millions of good jobs in the process. Sunrise Bay Area is one of the many local hubs that have sprung up nationwide to bring that movement to life! </p>
-
-      <p>We're building an army of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people. </p>
+      {{ .Params.section1}}
 
       <p class="center"><a href="https://docs.google.com/document/d/1ayVhE6cH76tCCW2kfI9MnD8T58In9te1XHk4L-0q9-Q/" target="_blank">Learn More About the Movement</a></p>
       <p class="center"><a href="https://www.congress.gov/116/bills/hres109/BILLS-116hres109ih.pdf" target="_blank">Read the Green New Deal Resolution</a></p>
@@ -40,23 +37,18 @@
       <div class="video-container"><iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         <p><a href="https://vimeo.com/387877356">Generation Green New Deal sneak peak [Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen">Sam Eilertsen</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
     </div>
-  </div>
+  </section>
 
-  <div class="section" id="what-we-do">
+  <section class="section" id="what-we-do">
     <div class="container">
-      <h2>What We Do</h2>
-      <h3>And How You Can, Too!</h3>
-
-      <p>We’re making the climate crisis a decisive issue in the 2020 election by mobilizing millions, turning up the heat, and forcing the media to tell our story: our future is at stake, and we demand a real plan for addressing the climate crisis. </p>
-
-      <p>As a local hub, Sunrise Bay Area is one of many in-person communities making this movement real. We organize strikes, pressure local politicians, make art, host trainings, throw parties, and more!</p>
+      {{ .Params.section2 }}
 
       <p class="center"><a href="https://bit.ly/sunrisenewmembersurvey" target="_blank">Connect with our Welcoming Crew and Get Plugged In!</a></p>
       <p class="center"><a href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank">Donate to our Equity Fund</a></p>
       <p class="center"><a href="bit.ly/feb23sunriseOT" target="_blank">Sign up for our Orientation Training on Feb. 23rd</a></p>
 
     </div>
-  </div>
+  </section>
 
   <!-- Footer -->
   <div class="footer center">

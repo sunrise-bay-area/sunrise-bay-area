@@ -1,12 +1,20 @@
 backend:
   name: github
   repo: sunrise-bay-area/sunrise-bay-area
-  branch: master
+  branch: homepage-cms
   base_url: https://us-central1-sunrise-bay-area-website.cloudfunctions.net
   auth_endpoint: /oauth/auth
 media_folder: static/img
 public_folder: /img
 collections:
+  - label: "About Page"
+    name: "index"
+    file: "content/_index.md"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Banner Welcome, name: bannerWelcome, widget: string}
+      - {label: Section 1, name: section1, widget: markdown}
+      - {label: Section 2, name: section2, widget: markdown}
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
