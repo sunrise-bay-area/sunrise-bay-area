@@ -7,7 +7,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - label: "About Page"
+  - label: "Index Page"
     name: "index"
     file: "content/_index.md"
     fields:
