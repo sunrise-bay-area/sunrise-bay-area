@@ -29,10 +29,7 @@
   <!-- Who We Are -->
   <section class="section" id="who-we-are">
     <div class="container">
-      {{ .Params.section1}}
-
-      <p class="center"><a href="https://docs.google.com/document/d/1ayVhE6cH76tCCW2kfI9MnD8T58In9te1XHk4L-0q9-Q/" target="_blank">Learn More About the Movement</a></p>
-      <p class="center"><a href="https://www.congress.gov/116/bills/hres109/BILLS-116hres109ih.pdf" target="_blank">Read the Green New Deal Resolution</a></p>
+      {{ .Params.section1 | markdownify }}
 
       <div class="video-container"><iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         <p><a href="https://vimeo.com/387877356">Generation Green New Deal sneak peak [Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen">Sam Eilertsen</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
@@ -41,12 +38,7 @@
 
   <section class="section" id="what-we-do">
     <div class="container">
-      {{ .Params.section2 }}
-
-      <p class="center"><a href="https://bit.ly/sunrisenewmembersurvey" target="_blank">Connect with our Welcoming Crew and Get Plugged In!</a></p>
-      <p class="center"><a href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank">Donate to our Equity Fund</a></p>
-      <p class="center"><a href="bit.ly/feb23sunriseOT" target="_blank">Sign up for our Orientation Training on Feb. 23rd</a></p>
-
+      {{ .Params.section2 | markdownify }}
     </div>
   </section>
 
