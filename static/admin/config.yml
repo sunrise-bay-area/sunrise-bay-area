@@ -7,6 +7,17 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+    - label: "Index Page"
+      name: "index"
+      file: "content/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Banner Welcome, name: bannerWelcome, widget: string}
+        - {label: Section 1, name: section1, widget: markdown}
+        - {label: Section 2, name: section2, widget: markdown}
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
