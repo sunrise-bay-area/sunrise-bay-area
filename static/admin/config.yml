@@ -6,6 +6,8 @@ backend:
   auth_endpoint: /oauth/auth
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+site_url: https://sunrisebayarea.org
 collections:
   - label: "Pages"
     name: "pages"
@@ -25,8 +27,8 @@ collections:
     folder: 'content/blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    preview_path: "blog/{{slug}}"
+    preview_path_date_field: date
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
