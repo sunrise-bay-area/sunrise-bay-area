@@ -16,6 +16,8 @@ collections:
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Banner Welcome, name: bannerWelcome, widget: string}
+        - {label: Join Button URL, name: joinUrl, widget: string}
+        - {label: Join Button Text, name: joinText, widget: string}
         - {label: Section 1, name: section1, widget: markdown}
         - {label: Section 2, name: section2, widget: markdown}
   - name: 'blog'
