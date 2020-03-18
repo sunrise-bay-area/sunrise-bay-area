@@ -4,6 +4,7 @@
 
 [See the hub website live!](https://sfbay.sunrisemovement.org/)
 
+
 ## Contributing
 
 We are excited to welcome new contributors to this project! Please see [the contribution guidelines](./CONTRIBUTING.md) for more info on how to contribute.
