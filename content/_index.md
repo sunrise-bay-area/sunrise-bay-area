@@ -1,7 +1,8 @@
 ---
 title: Sunrise Bay Area
 bannerWelcome: Join the movement that is changing the world
-joinUrl: https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
+joinUrl: >-
+  https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
 joinText: Join Bay Area Hub
 section1: >-
   ## Who We Are
@@ -49,6 +50,6 @@ section2: >-
   [Donate to our Equity Fund](https://secure.actblue.com/donate/sunrisebayarea)
 
 
-  [Sign up for our Orientation Training on Feb.
-  23rd](https://bit.ly/feb23sunriseOT)
+  [Sign up for our Orientation Training on March
+  28th](https://forms.gle/5xwpYBHiy3vYMPYu5)
 ---
