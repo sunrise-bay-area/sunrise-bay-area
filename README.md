@@ -1,5 +1,7 @@
 # Sunrise Bay Area's hub website
 
+[![Build Status](https://travis-ci.com/sunrise-bay-area/sunrise-bay-area.svg?branch=master)](https://travis-ci.com/sunrise-bay-area/sunrise-bay-area)
+
 [See the hub website live!](https://sfbay.sunrisemovement.org/)
 
 
