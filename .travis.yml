@@ -9,11 +9,24 @@ script:
 
 # Pushes contents of public folder to gh-pages branch in current repo
 deploy:
-  provider: pages
-  skip_cleanup: true
-  target_branch: gh-pages
-  local_dir: public
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
+  # Release to sunrisebayarea.org
+  - provider: pages
+    skip_cleanup: true
+    target_branch: gh-pages
+    local_dir: public
+    github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep_history: true
+    on:
+      branch: master
+  # Stage to sfbay.sunrisemovement.dev
+  - provider: script
+    skip_cleanup: true
+    script: scp -i key.pub -r public/* alxrsngrtn@sunrisemovement.dev/srv/sunrisemovement.dev/sfbay/public
+    on:
+      all_branches: true
+  # Release to sfbay.sunrisebayarea.org
+  - provider: script
+    skip_cleanup: true
+    script: scp -i key.pub -r public/* alxrsngrtn@sunrisemovement.dev/srv/sunrisemovement.org/sfbay/public
+    on:
+      branch: master
