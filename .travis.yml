@@ -21,12 +21,12 @@ deploy:
   # Stage to sfbay.sunrisemovement.dev
   - provider: script
     skip_cleanup: true
-    script: scp -i key.pub -r public alxrsngrtn@sunrisemovement.dev/srv/sunrisemovement.dev/sfbay/public
+    script: scp -i key.pub -r public/* alxrsngrtn@sunrisemovement.dev:/srv/sunrisemovement.dev/sfbay/public
     on:
       all_branches: true
   # Release to sfbay.sunrisebayarea.org
   - provider: script
     skip_cleanup: true
-    script: scp -i key.pub -r public alxrsngrtn@sunrisemovement.dev/srv/sunrisemovement.org/sfbay/public
+    script: scp -i key.pub -r public/* alxrsngrtn@sunrisemovement.dev:/srv/sunrisemovement.org/sfbay/public
     on:
       branch: master
