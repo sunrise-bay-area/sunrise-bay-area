@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Run at project root
+cd $(dirname $0)/..
+
+DOMAIN=""
+
+case $1 in
+ [sS]tage* ) DOMAIN="sunrisemovement.dev";;
+ [rR]elease* ) DOMAIN="sunrisemovement.org";;
+ * ) echo "Target not understood; only '$0 stage' or '$0 release' supported." && exit 1;;
+esac
+
+# Overwrite public/ contents for target
+echo $DOMAIN > public/CNAME
+
+scp -i key.pub -r public/* alxrsngrtn@sunrisemovement.dev:/srv/$DOMAIN/sfbay/public
