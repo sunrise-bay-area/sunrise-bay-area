@@ -32,5 +32,5 @@ deploy:
       branch: master
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_d4c78a49a5a2_key -iv $encrypted_d4c78a49a5a2_iv
-  -in key.pub.enc -out key.pub -d
+  - openssl enc -d -aes-256-cbc -in key.pub.enc -out key-test.pub -K $encrypted_key -iv $encrypted_iv
+
