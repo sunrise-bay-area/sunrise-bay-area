@@ -50,6 +50,6 @@ section2: >-
   [Donate to our Equity Fund](https://secure.actblue.com/donate/sunrisebayarea)
 
 
-  [Sign up for our Orientation Training on March
-  28th](https://forms.gle/5xwpYBHiy3vYMPYu5)
+  [Sign up for our Orientation Training on March 28th,
+  2020](https://forms.gle/5xwpYBHiy3vYMPYu5)
 ---
