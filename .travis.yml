@@ -34,7 +34,7 @@ deploy:
     script: bin/deploy stage
     on:
       branch: dev
-  # Release to sfbay.sunrisebayarea.org
+  # Release to sfbay.sunrisemovement.org
   - provider: script
     skip_cleanup: true
     script: bin/deploy release
