@@ -16,7 +16,7 @@ script:
   - hugo
 
 after_success:
-  - lhci autorun --plugins=lighthouse-plugin-greenhouse
+  - lhci autorun
 
 # Pushes contents of public folder to gh-pages branch in current repo
 deploy:

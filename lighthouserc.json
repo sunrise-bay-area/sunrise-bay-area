@@ -26,7 +26,10 @@
         ],
         "uses-long-cache-ttl": "off",
         "uses-http2": "off"
-      }
+      },
+      "plugins": [
+        "lighthouse-plugin-greenhouse"
+      ]
     },
     "upload": {
       "target": "temporary-public-storage"
