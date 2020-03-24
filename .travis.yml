@@ -9,13 +9,14 @@ before_install:
   # Unencrypt ssh key
   - openssl enc -d -aes-256-cbc -in key.pub.enc -out key.pub -K $encrypted_key -iv $encrypted_iv
   - npm install -g @lhci/cli@0.3.x
+  - npm install -g lighthouse-plugin-greenhouse
 
 # Renders website to public folder
 script:
   - hugo
 
 after_success:
-  - lhci autorun
+  - lhci autorun --plugins=lighthouse-plugin-greenhouse
 
 # Pushes contents of public folder to gh-pages branch in current repo
 deploy:
