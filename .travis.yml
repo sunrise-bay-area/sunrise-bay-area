@@ -1,11 +1,21 @@
+language: node_js
 dist: xenial
 addons:
   snaps:
     - hugo
+  chrome: stable
+
+before_install:
+  # Unencrypt ssh key
+  - openssl enc -d -aes-256-cbc -in key.pub.enc -out key.pub -K $encrypted_key -iv $encrypted_iv
+  - npm install -g @lhci/cli@0.3.x
 
 # Renders website to public folder
 script:
   - hugo
+
+after_success:
+  - lhci autorun
 
 # Pushes contents of public folder to gh-pages branch in current repo
 deploy:
@@ -30,7 +40,4 @@ deploy:
     script: bin/deploy release
     on:
       branch: master
-
-before_install:
-  - openssl enc -d -aes-256-cbc -in key.pub.enc -out key.pub -K $encrypted_key -iv $encrypted_iv
 
