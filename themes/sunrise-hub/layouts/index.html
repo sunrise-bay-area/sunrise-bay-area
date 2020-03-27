@@ -1,48 +1,54 @@
-<!-- Header -->
-<header class="header masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
-  <div class="container">
-    <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
+<!DOCTYPE HTML>
+<html lang="en">
+  {{- partial "head.html" . -}}
+  <body>
+    <!-- Header -->
+    <header class="header masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
+      <div class="container">
+        <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
 
-    <a class="btn btn-primary" href={{.Params.joinUrl}} target="_blank">
-      {{.Params.joinText}}
-    </a>
-  </div>
-</header>
+        <a class="btn btn-primary" href={{.Params.joinUrl}} target="_blank">
+          {{.Params.joinText}}
+        </a>
+      </div>
+    </header>
 
 
-<!-- Body -->
-<section class="section">
-  <div class="container">
-    {{.Content}}
-  </div>
-</section>
+    <!-- Body -->
+    <section class="section">
+      <div class="container">
+        {{.Content}}
+      </div>
+    </section>
 
-<!-- Footer -->
-<div class="footer center">
-  <div class="container">
-    <ul class="list-inline">
-      {{ if .Params.facebookUrl }}
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="{{ .Params.facebookUrl }}" target="_blank">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-      {{ end }}
-      {{ if .Params.twitterUrl }}
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="{{ .Params.twitterUrl }}" target="_blank">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-      {{ end }}
-      {{ if .Params.instagramUrl }}
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="{{ .Params.instagramUrl }}" target="_blank">
-            <i class="icon-social-instagram"></i>
-          </a>
-        </li>
-      {{ end }}
-    </ul>
-    <p class="copyright">Copyright &copy; Sunrise Movement 2020</p>
-  </div>
-</div>
+    <!-- Footer -->
+    <div class="footer center">
+      <div class="container">
+        <ul class="list-inline">
+          {{ if .Params.facebookUrl }}
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="{{ .Params.facebookUrl }}" target="_blank">
+                <i class="icon-social-facebook"></i>
+              </a>
+            </li>
+          {{ end }}
+          {{ if .Params.twitterUrl }}
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="{{ .Params.twitterUrl }}" target="_blank">
+                <i class="icon-social-twitter"></i>
+              </a>
+            </li>
+          {{ end }}
+          {{ if .Params.instagramUrl }}
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="{{ .Params.instagramUrl }}" target="_blank">
+                <i class="icon-social-instagram"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+        <p class="copyright">Copyright &copy; Sunrise Movement 2020</p>
+      </div>
+    </div>
+  </body>
+</html>
