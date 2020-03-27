@@ -21,8 +21,7 @@ collections:
         - {label: Masthead Welcome, name: bannerWelcome, widget: string}
         - {label: Join Button URL, name: joinUrl, widget: string}
         - {label: Join Button Text, name: joinText, widget: string}
-        - {label: Section 1, name: section1, widget: markdown}
-        - {label: Section 2, name: section2, widget: markdown}
+        - {label: Body, name: body, widget: markdown}
         - {label: Facebook URL, name: facebookUrl, widget: string, required: false}
         - {label: Twitter URL, name: twitterUrl, widget: string, required: false}
         - {label: Instagram URL, name: instagramUrl, widget: string, required: false}
