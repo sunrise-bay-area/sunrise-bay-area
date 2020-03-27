@@ -1,3 +1,6 @@
 baseURL = "https://sfbay.sunrisemovement.org/"
 languageCode = "en-us"
 title = "Sunrise Bay Area"
+
+[markup.goldmark.renderer]
+unsafe= true
