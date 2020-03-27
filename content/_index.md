@@ -63,9 +63,13 @@ Sunrise is a national movement to stop climate change and create millions of goo
 
 We're building an army of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people.
 
-[Learn More About the Movement](https://docs.google.com/document/d/1ayVhE6cH76tCCW2kfI9MnD8T58In9te1XHk4L-0q9-Q/edit)
+<a href="https://docs.google.com/document/d/1ayVhE6cH76tCCW2kfI9MnD8T58In9te1XHk4L-0q9-Q/edit" target="_blank">
+Learn More About the Movement
+</a>
 
-[Read the Green New Deal Resolution](https://www.congress.gov/116/bills/hres109/BILLS-116hres109ih.pdf)
+<a href="https://www.congress.gov/116/bills/hres109/BILLS-116hres109ih.pdf" target="_blank">
+Read the Green New Deal Resolution
+</a>
 
 <div class="video-container">
   <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -80,9 +84,15 @@ We’re making the climate crisis a decisive issue in the 2020 election by mobil
 
 As a local hub, Sunrise Bay Area is one of many in-person communities making this movement real. We organize strikes, pressure local politicians, make art, host trainings, throw parties, and more!
 
-[Connect with our Welcoming Crew and Get Plugged In!](https://bit.ly/sunrisenewmembersurvey)
+<a href="https://bit.ly/sunrisenewmembersurvey" target="_blank">
+Connect with our Welcoming Crew and Get Plugged In!
+</a>
 
-[Donate to our Equity Fund](https://secure.actblue.com/donate/sunrisebayarea)
+<a href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank">
+Donate to our Equity Fund
+</a>
 
-[Sign up for our Orientation Training on March 28th, 2020](https://forms.gle/5xwpYBHiy3vYMPYu5)
+<a href="https://forms.gle/5xwpYBHiy3vYMPYu5" target="_blank">
+Sign up for our Orientation Training on March 28th, 2020
+</a>
 
