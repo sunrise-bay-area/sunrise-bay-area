@@ -19,7 +19,7 @@
 </head>
 <body>
   <!-- Header -->
-  <div class="header masthead" id="header">
+  <header class="header masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
     <div class="container">
       <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
 
@@ -27,22 +27,13 @@
         {{.Params.joinText}}
       </a>
     </div>
-  </div>
+  </header>
 
 
   <!-- Who We Are -->
-  <section class="section" id="who-we-are">
+  <section class="section">
     <div class="container">
-      {{ .Params.section1 | markdownify }}
-
-      <div class="video-container"><iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        <p><a href="https://vimeo.com/387877356">Generation Green New Deal sneak peak [Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen">Sam Eilertsen</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
-    </div>
-  </section>
-
-  <section class="section" id="what-we-do">
-    <div class="container">
-      {{ .Params.section2 | markdownify }}
+      {{.Content}}
     </div>
   </section>
 
@@ -50,21 +41,27 @@
   <div class="footer center">
     <div class="container">
       <ul class="list-inline">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://www.facebook.com/bayareasunrise" target="_blank">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://twitter.com/sunrisebayarea" target="_blank">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://www.instagram.com/bayareasunrise/" target="_blank">
-            <i class="icon-social-instagram"></i>
-          </a>
-        </li>
+        {{ if .Params.facebookUrl }}
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="{{ .Params.facebookUrl }}" target="_blank">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+        {{ end }}
+        {{ if .Params.twitterUrl }}
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="{{ .Params.twitterUrl }}" target="_blank">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+        {{ end }}
+        {{ if .Params.instagramUrl }}
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="{{ .Params.instagramUrl }}" target="_blank">
+              <i class="icon-social-instagram"></i>
+            </a>
+          </li>
+        {{ end }}
       </ul>
       <p class="copyright">Copyright &copy; Sunrise Movement 2020</p>
     </div>

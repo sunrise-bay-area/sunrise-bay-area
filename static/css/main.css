@@ -88,7 +88,6 @@ p {
     padding-top: 8rem;
     padding-bottom: 8rem;
     background-position: center center;
-    background-image: radial-gradient(#fff, #111), url("../img/splashpage-grey.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
