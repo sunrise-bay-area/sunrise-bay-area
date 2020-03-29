@@ -7,7 +7,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 publish_mode: editorial_workflow
-site_url: https://sfbay.sunrisemovement.org
+site_url: https://sunrisebayarea.org
 collections:
   - label: "Pages"
     name: "pages"
