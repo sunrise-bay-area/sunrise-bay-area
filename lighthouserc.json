@@ -10,6 +10,8 @@
     "assert": {
       "preset": "lighthouse:no-pwa",
       "assertions": {
+        "uses-long-cache-ttl": "off",
+        "uses-http2": "off",
         "first-contentful-paint": [
           "error",
           {
@@ -24,8 +26,6 @@
             "aggregationMethod": "pessimistic"
           }
         ],
-        "uses-long-cache-ttl": "off",
-        "uses-http2": "off"
       },
       "plugins": [
         "lighthouse-plugin-greenhouse"
