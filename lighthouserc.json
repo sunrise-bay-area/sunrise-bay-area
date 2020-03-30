@@ -2,26 +2,26 @@
   "ci": {
     "collect": {
       "url": [
-        "http://localhost/"
+        "https://localhost/"
       ],
       "numberOfRuns": 2,
       "staticDistDir": "./public"
     },
     "assert": {
-      "preset": "lighthouse:all",
+      "preset": "lighthouse:no-pwa",
       "assertions": {
         "first-contentful-paint": [
-          "warn",
+          "error",
           {
-            "maxNumericValue": 2500,
-            "aggregationMethod": "optimistic"
+            "maxNumericValue": 2000,
+            "aggregationMethod": "pessimistic"
           }
         ],
         "interactive": [
-          "warn",
+          "error",
           {
             "maxNumericValue": 5000,
-            "aggregationMethod": "optimistic"
+            "aggregationMethod": "pessimistic"
           }
         ],
         "uses-long-cache-ttl": "off",
