@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "url": [
-        "https://localhost/"
+        "http://localhost/"
       ],
       "numberOfRuns": 2,
       "staticDistDir": "./public"
