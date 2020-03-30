@@ -12,6 +12,7 @@
       "assertions": {
         "uses-long-cache-ttl": "off",
         "uses-http2": "off",
+        "is-on-https": "off",
         "first-contentful-paint": [
           "error",
           {
