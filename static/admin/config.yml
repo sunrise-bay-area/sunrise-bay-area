@@ -14,7 +14,7 @@ collections:
     files:
     - label: "Settings"
       name: "settings"
-      file: "data/settings.md"
+      file: "data/settings.yml"
       fields:
         - {label: Facebook URL, name: facebookUrl, widget: string, required: false}
         - {label: Twitter URL, name: twitterUrl, widget: string, required: false}
