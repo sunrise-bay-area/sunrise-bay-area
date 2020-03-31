@@ -1,0 +1,5 @@
+---
+facebookUrl: 'https://www.facebook.com/bayareasunrise'
+twitterUrl: 'https://twitter.com/sunrisebayarea'
+instagramUrl: 'https://www.instagram.com/bayareasunrise/'
+---
