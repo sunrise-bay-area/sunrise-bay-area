@@ -41,23 +41,23 @@
   <div class="footer center">
     <div class="container">
       <ul class="list-inline">
-        {{ if .Params.facebookUrl }}
+        {{ with .Site.Data.settings.facebookUrl }}
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="{{ .Params.facebookUrl }}" target="_blank">
+            <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank">
               <i class="icon-social-facebook"></i>
             </a>
           </li>
         {{ end }}
-        {{ if .Params.twitterUrl }}
+        {{ with .Site.Data.settings.twitterUrl }}
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="{{ .Params.twitterUrl }}" target="_blank">
+            <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank">
               <i class="icon-social-twitter"></i>
             </a>
           </li>
         {{ end }}
-        {{ if .Params.instagramUrl }}
+        {{ with .Site.Data.settings.instagramUrl }}
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="{{ .Params.instagramUrl }}" target="_blank">
+            <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank">
               <i class="icon-social-instagram"></i>
             </a>
           </li>
