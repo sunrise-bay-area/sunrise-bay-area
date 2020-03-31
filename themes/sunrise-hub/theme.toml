@@ -3,9 +3,9 @@
 
 name = "Sunrise Hub"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/sunrise-bay-area/sunrise-bay-area/blob/master/themes/sunrise-hub/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = "https://sunrisebayarea.org"
 tags = []
 features = []
 min_version = "0.41"
