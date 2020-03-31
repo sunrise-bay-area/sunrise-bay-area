@@ -9,6 +9,16 @@ public_folder: /img
 publish_mode: editorial_workflow
 site_url: https://sunrisebayarea.org
 collections:
+  - label: "Sitewide Data"
+    name: "data"
+    files:
+    - label: "Settings"
+      name: "settings"
+      file: "data/settings.md"
+      fields:
+        - {label: Facebook URL, name: facebookUrl, widget: string, required: false}
+        - {label: Twitter URL, name: twitterUrl, widget: string, required: false}
+        - {label: Instagram URL, name: instagramUrl, widget: string, required: false}
   - label: "Pages"
     name: "pages"
     files:
@@ -22,9 +32,6 @@ collections:
         - {label: Join Button URL, name: joinUrl, widget: string}
         - {label: Join Button Text, name: joinText, widget: string}
         - {label: Body, name: body, widget: markdown}
-        - {label: Facebook URL, name: facebookUrl, widget: string, required: false}
-        - {label: Twitter URL, name: twitterUrl, widget: string, required: false}
-        - {label: Instagram URL, name: instagramUrl, widget: string, required: false}
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'

@@ -5,9 +5,6 @@ bannerWelcome: Join the movement that is changing the world
 joinUrl: >-
   https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
 joinText: Join Bay Area Hub
-facebookUrl: 'https://www.facebook.com/bayareasunrise'
-twitterUrl: 'https://twitter.com/sunrisebayarea'
-instagramUrl: 'https://www.instagram.com/bayareasunrise/'
 ---
 ## Who We Are
 
