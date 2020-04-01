@@ -1,0 +1,36 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "http://localhost/"
+      ],
+      "numberOfRuns": 2,
+      "staticDistDir": "./public"
+    },
+    "assert": {
+      "preset": "lighthouse:no-pwa",
+      "assertions": {
+        "uses-long-cache-ttl": "off",
+        "uses-http2": "off",
+        "is-on-https": "off",
+        "first-contentful-paint": [
+          "error",
+          {
+            "maxNumericValue": 2000,
+            "aggregationMethod": "pessimistic"
+          }
+        ],
+        "interactive": [
+          "error",
+          {
+            "maxNumericValue": 5000,
+            "aggregationMethod": "pessimistic"
+          }
+        ],
+      },
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}

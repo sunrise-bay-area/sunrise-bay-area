@@ -4,13 +4,12 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="description" content="Sunrise is a national movement to stop climate change and create millions of good jobs in the process.
+   Sunrise Bay Area is one of the many local hubs that have sprung up nationwide to bring that movement to life!">
 
   <title>{{.Title}}</title>
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
   <link rel="stylesheet" href="css/main.css" />
@@ -23,7 +22,7 @@
     <div class="container">
       <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
 
-      <a class="btn btn-primary" href={{.Params.joinUrl}} target="_blank">
+      <a class="btn btn-primary" href={{.Params.joinUrl}} rel="noreferrer" target="_blank">
         {{.Params.joinText}}
       </a>
     </div>
@@ -31,16 +30,16 @@
 
 
   <!-- Who We Are -->
-  <section class="section" id="who-we-are">
+  <section class="section" id="section-who-we-are">
     <div class="container">
       {{ .Params.section1 | markdownify }}
 
-      <div class="video-container"><iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <div class="video-container"><iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Generation Green New Deal sneak peak [Spanish subtitles]"></iframe>
         <p><a href="https://vimeo.com/387877356">Generation Green New Deal sneak peak [Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen">Sam Eilertsen</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
     </div>
   </section>
 
-  <section class="section" id="what-we-do">
+  <section class="section" id="section-what-we-do">
     <div class="container">
       {{ .Params.section2 | markdownify }}
     </div>
@@ -51,18 +50,18 @@
     <div class="container">
       <ul class="list-inline">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://www.facebook.com/bayareasunrise" target="_blank">
-            <i class="icon-social-facebook"></i>
+          <a class="social-link rounded-circle text-white" href="https://www.facebook.com/bayareasunrise" rel="noreferrer" target="_blank">
+            <i class="icon-social-facebook" title="Facebook"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://twitter.com/sunrisebayarea" target="_blank">
-            <i class="icon-social-twitter"></i>
+          <a class="social-link rounded-circle text-white" href="https://twitter.com/sunrisebayarea" rel="noreferrer" target="_blank">
+            <i class="icon-social-twitter" title="Twitter"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://www.instagram.com/bayareasunrise/" target="_blank">
-            <i class="icon-social-instagram"></i>
+          <a class="social-link rounded-circle text-white" href="https://www.instagram.com/bayareasunrise/" rel="noreferrer" target="_blank">
+            <i class="icon-social-instagram" title="Instagram"></i>
           </a>
         </li>
       </ul>

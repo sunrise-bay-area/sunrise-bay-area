@@ -88,7 +88,7 @@ p {
     padding-top: 8rem;
     padding-bottom: 8rem;
     background-position: center center;
-    background-image: radial-gradient(#fff, #111), url("../img/splashpage-grey.png");
+    background-image: radial-gradient(#fff, #111), url("../img/splashpage-grey.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -118,7 +118,7 @@ p {
 
 .copyright {
     font-size: .8rem;
-    color: #999;
+    color: var(--secondary-color);
     text-align: center;
     padding: 10px;
 }
