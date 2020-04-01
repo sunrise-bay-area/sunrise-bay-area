@@ -9,6 +9,7 @@ before_install:
   # Unencrypt ssh key
   - openssl enc -d -aes-256-cbc -in key.pub.enc -out key.pub -K $encrypted_key -iv $encrypted_iv
   - npm install -g @lhci/cli@0.3.x
+  - npm install -g lighthouse
   - npm install -g lighthouse-plugin-greenhouse
 
 # Renders website to public folder
