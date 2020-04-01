@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "settings": {
-        "plugins": ["lighthouse-plugin-greenhouse"],
+        "plugins": ["lighthouse-plugin-greenhouse"]
       },
       "url": [
         "http://localhost/"
