@@ -117,7 +117,7 @@ p {
 
 .copyright {
     font-size: .8rem;
-    color: #999;
+    color: var(--secondary-color);
     text-align: center;
     padding: 10px;
 }

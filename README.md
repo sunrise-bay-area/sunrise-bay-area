@@ -31,13 +31,17 @@ Visit the site at http://localhost:1313.
 
 ## Content Management
 
-Content management is currently a work in progress. We eventually hope to manage content and copy via [Netlify CMS](https://www.netlifycms.org/), which will allow developers and non-developers alike to manage content in a simple and version-controlled way.
+Content management is currently provided by [Netlify CMS](https://www.netlifycms.org/). This allows developers and non-developers alike to manage content in a simple and version-controlled way.
 
-Locally, you can explore Netlify CMS by running the project and visiting /admin.
+Locally, you can explore Netlify CMS by running the project and visiting `/admin`.
+
+If you have write access to this organization, you can edit the content to the live site via [sfbay.sunrisemovement.org/admin](https://sfbay.sunrisemovement.org/admin).
 
 ## Deployment
 
-We currently host the Sunrise Bay Area site via [Github Pages](https://pages.github.com/).
+We currently host [sunrisebayarea.org](https//sunrisebayarea.org) via [Github Pages](https://pages.github.com/) and [sfbay.sunrisemovement.org](https://sfbay.sunrisemovement.org) via Linux Server. For more information about our webserver, see [sunrisemovement/devops](https://github.com/sunrisemovement/devops).
 
-Changes to this repo are automatically deployed to Github Pages upon merging to master using [Travis](https://travis-ci.org/).
+Using [Travis](https://travis-ci.org/), changes to this repo are automatically staged upon merging to `dev` and released upon merging to `master`. 
+
 See the [travis config](./.travis.yml) for more info.
+
