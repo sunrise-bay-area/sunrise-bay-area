@@ -4,4 +4,4 @@ backend:
   branch: master
   base_url: https://my-oauth.com
   auth_endpoint: /my-oauth-endpoint
-  site_url: my-site-url.org
+site_url: my-site-url.org
