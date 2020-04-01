@@ -31,7 +31,7 @@ Visit the site at http://localhost:1313.
 
 ## Content Management
 
-Content management is currently a work in progress. We eventually hope to manage content and copy via [Netlify CMS](https://www.netlifycms.org/), which will allow developers and non-developers alike to manage content in a simple and version-controlled way.
+We manage content and copy via [Netlify CMS](https://www.netlifycms.org/), which allows developers and non-developers alike to manage content in a simple and version-controlled way.
 
 Locally, you can explore Netlify CMS by running the project and visiting /admin.
 
