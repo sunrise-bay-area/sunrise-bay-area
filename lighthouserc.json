@@ -28,9 +28,6 @@
           }
         ],
       },
-      "plugins": [
-        "lighthouse-plugin-greenhouse"
-      ]
     },
     "upload": {
       "target": "temporary-public-storage"
