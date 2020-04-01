@@ -29,8 +29,8 @@
             "maxNumericValue": 5000,
             "aggregationMethod": "pessimistic"
           }
-        ],
-      },
+        ]
+      }
     },
     "upload": {
       "target": "temporary-public-storage"
