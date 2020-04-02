@@ -1,6 +1,6 @@
 ---
 title: Sunrise Bay Area
-mastheadImage: /img/splashpage-grey.png
+mastheadImage: /img/splashpage-grey.webp
 bannerWelcome: Join the movement that is changing the world
 joinUrl: >-
   https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
@@ -28,7 +28,7 @@ Read the Green New Deal Resolution
 
 
 <div class="video-container">
-  <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" title="Generation Green New Deal sneak peak [Spanish subtitles]" allowfullscreen></iframe>
   <p><a href="https://vimeo.com/387877356">Generation Green New Deal sneak peak [Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen">Sam Eilertsen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>
 
