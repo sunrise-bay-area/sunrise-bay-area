@@ -13,4 +13,4 @@ esac
 # Overwrite public/ contents for target
 echo $DOMAIN > public/CNAME
 
-scp -i key.pub -r public/* alxrsngrtn@sunrisemovement.dev:/srv/$DOMAIN/sfbay/public
+yes | scp -i key.pub -r public/* alxrsngrtn@sunrisemovement.dev:/srv/$DOMAIN/sfbay/public

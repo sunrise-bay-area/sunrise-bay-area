@@ -117,7 +117,7 @@ p {
 
 .copyright {
     font-size: .8rem;
-    color: #999;
+    color: var(--secondary-color);
     text-align: center;
     padding: 10px;
 }
@@ -185,4 +185,13 @@ p {
 
 .text-secondary {
     color: var(--secondary-color) !important;
+}
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
