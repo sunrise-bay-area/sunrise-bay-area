@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: my-organization/my-repo
+  branch: master
+  base_url: https://my-oauth.com
+  auth_endpoint: /my-oauth-endpoint
+site_url: my-site-url.org
