@@ -88,7 +88,6 @@ p {
     padding-top: 8rem;
     padding-bottom: 8rem;
     background-position: center center;
-    background-image: radial-gradient(#fff, #111), url("../img/splashpage-grey.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -186,4 +185,13 @@ p {
 
 .text-secondary {
     color: var(--secondary-color) !important;
+}
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
