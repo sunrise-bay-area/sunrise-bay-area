@@ -1,6 +1,6 @@
 ---
 title: Media
-slug: /media
+url: /media
 listed: false
 ---
 Content about our media!

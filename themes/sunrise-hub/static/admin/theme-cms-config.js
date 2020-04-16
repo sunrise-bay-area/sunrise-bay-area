@@ -89,6 +89,11 @@ window.themeCMSConfig = {
           "widget": "string"
         },
         {
+          "label": "Url (e.g. /about)", 
+          "name": "url", 
+          "widget": "string"
+        },
+        {
           "label": "List on Menu?",
           "name": "listed", 
           "widget": "boolean"
