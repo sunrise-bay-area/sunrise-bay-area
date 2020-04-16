@@ -35,8 +35,8 @@ window.themeCMSConfig = {
       ]
     },
     {
-      "label": "Pages",
-      "name": "pages",
+      "label": "Home Page",
+      "name": "homepage",
       "files": [
         {
           "label": "Index Page",
@@ -74,6 +74,29 @@ window.themeCMSConfig = {
               "widget": "markdown"
             }
           ]
+        }
+      ]
+    },
+    {
+      "label": "Pages",
+      "name": "pages",
+      "create": true,
+      "folder": "content/pages",
+      "fields": [
+        {
+          "label": "Title", 
+          "name": "title", 
+          "widget": "string"
+        },
+        {
+          "label": "List on Menu?",
+          "name": "listed", 
+          "widget": "boolean"
+        },
+        {
+          "label": "Content",
+          "name": "body", 
+          "widget": "markdown"
         }
       ]
     },
