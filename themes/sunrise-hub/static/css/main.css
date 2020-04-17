@@ -72,6 +72,13 @@ a:hover, a:focus, a:active {
     text-decoration: none;
 }
 
+p {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin-bottom: 2em;
+}
+
+
 /* Header styles */
 .main-header {
     width: 100%;  
@@ -160,12 +167,6 @@ a:hover, a:focus, a:active {
     justify-content: center;
     height: 100%;
     flex-direction: column;
-}
-
-p {
-    text-align: justify;
-    font-size: 1.25rem;
-    margin-bottom: 2em;
 }
 
 .video-container {
