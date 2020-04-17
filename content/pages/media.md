@@ -2,6 +2,8 @@
 title: Media
 url: /media
 listed: false
+menu:
+  - main
 ---
 Content about our media!
 
