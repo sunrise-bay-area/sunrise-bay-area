@@ -100,6 +100,7 @@ a:hover, a:focus, a:active {
 .header-menu {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header-nav-home-link {
@@ -134,7 +135,13 @@ a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 600px) {
-  /* TODO: add responsive styles */
+  .main-header {
+      padding: 15px;
+  }
+
+  .header-nav-home-link {
+      display: none;
+  }
 }
 
 /* Body styles */
