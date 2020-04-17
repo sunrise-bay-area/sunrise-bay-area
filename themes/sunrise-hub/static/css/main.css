@@ -154,6 +154,15 @@ p {
   }
 }
 
+/* Index styles */
+
+.index-header-positioner {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
 /* Body styles */
 
 .center {
@@ -190,9 +199,8 @@ p {
 .masthead {
     min-height: 30rem;
     position: relative;
-    display: table;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-top: 8rem;
     padding-bottom: 8rem;
     background-position: center center;

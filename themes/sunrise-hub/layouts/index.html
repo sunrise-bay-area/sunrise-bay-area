@@ -1,13 +1,20 @@
-{{ define "main" }}
-  <header class="header masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
-    <div class="container">
-      <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
+{{ define "header" }}
+  <div class="index-header-positioner">
+    {{- partial "header.html" . -}}
 
-      <a class="btn btn-primary" href={{.Params.joinUrl}} rel="noreferrer" target="_blank">
-        {{.Params.joinText}}
-      </a>
+    <div class="header masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
+      <div class="container">
+        <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
+
+        <a class="btn btn-primary" href={{.Params.joinUrl}} rel="noreferrer" target="_blank">
+          {{.Params.joinText}}
+        </a>
+      </div>
     </div>
-  </header>
+  </div>
+{{ end }}
+
+{{ define "main" }}
 
   <section class="section">
     <div class="container">
