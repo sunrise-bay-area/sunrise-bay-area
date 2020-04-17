@@ -8,12 +8,8 @@
       {{- partial "header.html" . -}}
     {{ end }}
 
-    <section class="section">
-      <div class="container">
-        {{ block "main" . }}
-        {{ end }}
-      </div>
-    </section>
+    {{ block "main" . }}
+    {{ end }}
 
     {{ block "footer" . }}
       {{- partial "footer.html" . -}}

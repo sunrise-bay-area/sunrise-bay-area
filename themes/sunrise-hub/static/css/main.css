@@ -46,6 +46,10 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 h2 {
     font-size: 2rem;
 }
@@ -72,7 +76,7 @@ a:hover, a:focus, a:active {
 .main-header {
     width: 100%;  
     background-color: var(--base-secondary-color);
-    padding: 25px 100px;
+    padding: 15px 100px;
 }
 
 .header-nav {

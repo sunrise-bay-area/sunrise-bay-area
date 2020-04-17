@@ -1,4 +1,4 @@
-{{ define "header" }}
+{{ define "main" }}
   <header class="header masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
     <div class="container">
       <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
@@ -8,8 +8,10 @@
       </a>
     </div>
   </header>
-{{ end }}
 
-{{ define "main" }}
-  {{.Content}}
+  <section class="section">
+    <div class="container">
+      {{.Content}}
+    </div>
+  </section>
 {{ end }}
