@@ -1,1 +1,16 @@
-  <!-- TODO: a nav bar header will eventuall go here -->
+<header class="main-header">
+  <nav class="header-nav">
+    <a href="/" class="header-nav-logo">
+      Bay Area Sunrise Movement
+    </a>
+    <ul class="header-menu">
+      {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}">
+                <span>{{ .Title }}</span>
+            </a>
+          </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

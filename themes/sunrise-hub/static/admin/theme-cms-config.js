@@ -93,10 +93,13 @@ window.themeCMSConfig = {
           "name": "url", 
           "widget": "string"
         },
-        {
-          "label": "List on Menu?",
-          "name": "listed", 
-          "widget": "boolean"
+        { 
+          "label": "Menu",
+          "name": "menu",
+          "widget": "select",
+          "multiple": true,
+          "options": ["main"],
+          "default": []
         },
         {
           "label": "Content",

@@ -8,6 +8,28 @@
     --font: 'Source Sans Pro', serif;
 }
 
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 body {
     color: var(--secondary-color);
     background-color: var(--base-primary-color);
@@ -41,6 +63,50 @@ a:hover, a:focus, a:active {
     color: #eee;
     text-decoration: none;
 }
+
+/* Header styles */
+.main-header {
+    width: 100%;  
+    background-color: var(--base-secondary-color);
+    padding: 25px 100px;
+}
+
+.header-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav a {
+    border-bottom: none;
+    color: var(--primary-color);
+    font-family: var(--font);
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.75rem
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+}
+
+.header-menu li {
+    margin: 0 25px;
+}
+
+.header-nav-logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 9em;
+}
+
+@media screen and (max-width: 600px) {
+  /* TODO: add responsive styles */
+}
+
+/* Body styles */
 
 .center {
     text-align: center;
