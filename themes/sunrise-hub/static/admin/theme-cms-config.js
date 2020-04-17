@@ -29,6 +29,16 @@ window.themeCMSConfig = {
               "name": "instagramUrl",
               "widget": "string",
               "required": false
+            },
+            {
+              "label": "Logo (for navbar)",
+              "name": "logo",
+              "widget": "image"
+            },
+            {
+              "label": "Hub Name (for navbar)",
+              "name": "name",
+              "widget": "string"
             }
           ]
         }

@@ -1,12 +1,21 @@
 <header class="main-header">
   <nav class="header-nav">
-    <a href="/" class="header-nav-logo">
-      Bay Area Sunrise Movement
+    <a href="/" class="header-nav-home-link">
+      <img src="{{.Site.Data.settings.logo}}" class="header-nav-logo" />
+      <div class="header-nav-mvmt-text">
+        <span class="header-nav-mvmt">Sunrise Movement</span>
+        <span class="header-nav-hub-name">{{.Site.Data.settings.name}}</span>
+      </div>
     </a>
     <ul class="header-menu">
+      <li class="header-menu-list-item">
+        <a href="/" class="header-menu-item">
+            <span>Home</span>
+        </a>
+      </li>
       {{ range .Site.Menus.main }}
-          <li>
-            <a href="{{ .URL }}">
+          <li class="header-menu-list-item">
+            <a href="{{ .URL }}" class="header-menu-item">
                 <span>{{ .Title }}</span>
             </a>
           </li>
