@@ -1,13 +1,13 @@
-{{ if isset .Site.Data.settings "bannerText" }}
+{{ if isset .Site.Data.settings.banner "text" }}
 <div class="banner" id="banner">
-  <a class="btn-primary" href="{{ .Site.Data.settings.bannerUrl }}" rel="noreferrer" target="_blank">
-    {{ .Site.Data.settings.bannerText }}
+  <a class="btn-primary" href="{{ .Site.Data.settings.banner.url }}" rel="noreferrer" target="_blank">
+    {{ .Site.Data.settings.banner.text }}
   </a>
   <span class="btn btn-secondary" id="banner-close">X</span>
 </div>
 <!-- Banner close functionality -->
 <script type="text/javascript">
-  const setting = 'show-sunrise-banner';
+  const setting = 'show-sunrise-banner-{{ .Site.Data.settings.banner.id }}';
   const banner = document.getElementById('banner');
   const count = parseInt(localStorage.getItem(setting));
   document.getElementById('banner-close').onclick = (ev) => {
