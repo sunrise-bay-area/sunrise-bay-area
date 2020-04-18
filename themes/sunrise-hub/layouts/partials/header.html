@@ -1,1 +1,22 @@
-  <!-- TODO: a nav bar header will eventuall go here -->
+{{ if isset .Site.Data.settings "bannerText" }}
+<div class="banner" id="banner">
+  <a class="btn-primary" href="{{ .Site.Data.settings.bannerUrl }}" rel="noreferrer" target="_blank">
+    {{ .Site.Data.settings.bannerText }}
+  </a>
+  <span class="btn btn-secondary" id="banner-close">X</span>
+</div>
+<!-- Banner close functionality -->
+<script type="text/javascript">
+  const setting = 'show-sunrise-banner';
+  const banner = document.getElementById('banner');
+  const count = parseInt(localStorage.getItem(setting));
+  document.getElementById('banner-close').onclick = (ev) => {
+    banner.style = 'display:none;';
+    localStorage.setItem(setting, count + 1);
+  };
+  // After closing 5 times, don't show anymore
+  if((localStorage.getItem(setting) >= 5)) {
+    banner.style = 'display:none;';
+  }
+</script>
+{{ end }}

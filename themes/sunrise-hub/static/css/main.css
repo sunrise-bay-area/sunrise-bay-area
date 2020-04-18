@@ -61,6 +61,30 @@ p {
     margin-bottom: 2em;
 }
 
+.banner {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 10px 100px;
+    text-align: center;
+}
+
+.banner a {
+    font-weight: 900;
+    color: var(--base-primary-color);
+}
+
+.banner .btn {
+
+}
+
+#banner-close {
+    float: right;
+    position: relative;
+    top: -7px;
+    border-radius: 50%;
+
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -149,16 +173,19 @@ p {
     border-color: var(--primary-color) !important;
     color: var(--base-primary-color) !important;
 }
-/* For use at a later time... */
-/*.btn-secondary {*/
-/*    background-color: #ecb807 !important;*/
-/*    border-color: #ecb807 !important;*/
-/*    color: #fff !important;*/
-/*}*/
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active
-/*.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active */ {
+.btn-secondary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--base-primary-color) !important;
     filter: brightness(85%);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    filter: brightness(85%);
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+    filter: brightness(75%);
 }
 
 .btn-dark {
