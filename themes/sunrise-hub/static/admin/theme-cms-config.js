@@ -117,6 +117,11 @@ window.themeCMSConfig = {
           "default": []
         },
         {
+          "label": "Masthead Image",
+          "name": "mastheadImage",
+          "widget": "image"
+        },
+        {
           "label": "Content",
           "name": "body", 
           "widget": "markdown"
