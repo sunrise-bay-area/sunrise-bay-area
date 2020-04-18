@@ -68,6 +68,32 @@ window.themeCMSConfig = {
               "name": "instagramUrl",
               "widget": "string",
               "required": false
+            },
+            {
+              "label": "Banner",
+              "name": "banner",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Banner URL",
+                  "name": "url",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Banner Text",
+                  "name": "text",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Banner ID (no spaces!)",
+                  "name": "id",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
             }
           ]
         }
