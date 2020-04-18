@@ -192,11 +192,10 @@ p {
 }
 
 #banner-close {
-    float: right;
-    position: relative;
-    top: -7px;
+    position: absolute;
+    top: 2px;
     border-radius: 50%;
-
+    right: 5px;
 }
 
 .video-container {
