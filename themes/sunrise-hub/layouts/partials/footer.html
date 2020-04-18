@@ -2,7 +2,7 @@
 <footer class="footer center">
   <div class="container">
     <ul class="list-inline">
-      {{ with .Site.Data.settings.facebookUrl }}
+      {{ with .Site.Data.footer.facebookUrl }}
         <li class="list-inline-item">
           <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank" rel="noreferrer">
             <i class="icon-social-facebook"></i>
@@ -10,7 +10,7 @@
           </a>
         </li>
       {{ end }}
-      {{ with .Site.Data.settings.twitterUrl }}
+      {{ with .Site.Data.footer.twitterUrl }}
         <li class="list-inline-item">
           <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank" rel="noreferrer">
             <i class="icon-social-twitter"></i>
@@ -18,7 +18,7 @@
           </a>
         </li>
       {{ end }}
-      {{ with .Site.Data.settings.instagramUrl }}
+      {{ with .Site.Data.footer.instagramUrl }}
         <li class="list-inline-item">
           <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank" rel="noreferrer">
             <i class="icon-social-instagram"></i>

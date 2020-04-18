@@ -8,9 +8,31 @@ window.themeCMSConfig = {
       "name": "data",
       "files": [
         {
-          "label": "Settings",
-          "name": "settings",
-          "file": "data/settings.yml",
+          "label": "Header",
+          "name": "header",
+          "file": "data/header.yml",
+          "fields": [
+            {
+              "label": "Logo",
+              "name": "logo",
+              "widget": "image"
+            },
+            {
+              "label": "Hub Name Top Line",
+              "name": "navbarnametop",
+              "widget": "string"
+            },
+            {
+              "label": "Hub Name Bottom Line",
+              "name": "navbarnamebottom",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "label": "Footer",
+          "name": "footer",
+          "file": "data/footer.yml",
           "fields": [
             {
               "label": "Facebook URL",
@@ -29,21 +51,6 @@ window.themeCMSConfig = {
               "name": "instagramUrl",
               "widget": "string",
               "required": false
-            },
-            {
-              "label": "Logo (for navbar)",
-              "name": "logo",
-              "widget": "image"
-            },
-            {
-              "label": "Hub Name Top Line (for navbar)",
-              "name": "navbarnametop",
-              "widget": "string"
-            },
-            {
-              "label": "Hub Name Bottom Line (for navbar)",
-              "name": "navbarnamebottom",
-              "widget": "string"
             }
           ]
         }
