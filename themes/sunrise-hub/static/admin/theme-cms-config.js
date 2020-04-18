@@ -26,6 +26,23 @@ window.themeCMSConfig = {
               "label": "Hub Name Bottom Line",
               "name": "navbarnamebottom",
               "widget": "string"
+            },
+            {
+              "label": "Additional Menu Items",
+              "name": "menuItems",
+              "widget": "list",
+              "fields": [
+                { 
+                  "label": "Link Text", 
+                  "name": "text", 
+                  "widget": "string" 
+                },
+                { 
+                  "label": "Link Url", 
+                  "name": "url", 
+                  "widget": "string" 
+                }
+              ]
             }
           ]
         },
