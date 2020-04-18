@@ -36,8 +36,13 @@ window.themeCMSConfig = {
               "widget": "image"
             },
             {
-              "label": "Hub Name (for navbar)",
-              "name": "name",
+              "label": "Hub Name Top Line (for navbar)",
+              "name": "navbarnametop",
+              "widget": "string"
+            },
+            {
+              "label": "Hub Name Bottom Line (for navbar)",
+              "name": "navbarnamebottom",
               "widget": "string"
             }
           ]
