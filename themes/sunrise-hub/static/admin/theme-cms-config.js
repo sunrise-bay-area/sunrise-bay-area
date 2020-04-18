@@ -68,6 +68,12 @@ window.themeCMSConfig = {
               "name": "instagramUrl",
               "widget": "string",
               "required": false
+            },
+            {
+              "label": "Email",
+              "name": "email",
+              "widget": "string",
+              "required": false
             }
           ]
         }

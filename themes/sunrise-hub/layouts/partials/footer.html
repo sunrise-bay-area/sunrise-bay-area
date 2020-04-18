@@ -26,6 +26,14 @@
           </a>
         </li>
       {{ end }}
+      {{ with .Site.Data.settings.email }}
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white" href="mailto:{{ . }}" target="_top" rel="noreferrer">
+          <i class="icon-envelope"></i>
+          <p class="hidden">Email</p>
+        </a>
+      </li>
+      {{ end }}
     </ul>
     <p class="copyright">Copyright &copy; Sunrise Movement 2020</p>
   </div>
