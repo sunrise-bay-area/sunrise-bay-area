@@ -154,15 +154,6 @@ p {
   }
 }
 
-/* Index styles */
-
-.index-header-positioner {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-}
-
 /* Body styles */
 
 .center {
@@ -196,6 +187,13 @@ p {
     height: 100%;
 }
 
+.index-header-positioner {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
 .masthead {
     min-height: 30rem;
     position: relative;
@@ -211,6 +209,20 @@ p {
 
 .masthead h1 {
     font-size: 4rem;
+}
+
+.short-masthead {
+    min-height: 20rem;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 600px) {
