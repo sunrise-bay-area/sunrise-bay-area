@@ -1,1 +1,32 @@
-  <!-- TODO: a nav bar header will eventuall go here -->
+<header class="main-header">
+  <nav class="header-nav">
+    <a href="/" class="header-nav-home-link">
+      <img src="{{.Site.Data.header.logo}}" class="header-nav-logo" />
+      <div class="header-nav-mvmt-text">
+        <span class="header-nav-mvmt">{{.Site.Data.header.navbarNameTop}}</span>
+        <span class="header-nav-hub-name">{{.Site.Data.header.navbarNameBottom}}</span>
+      </div>
+    </a>
+    <ul class="header-menu">
+      <li class="header-menu-list-item">
+        <a href="/" class="header-menu-item">
+            <span>Home</span>
+        </a>
+      </li>
+      {{ range .Site.Data.header.menuItems }}
+          <li class="header-menu-list-item">
+            <a href="{{ .url }}" class="header-menu-item" rel="noreferrer" target="_blank">
+                <span>{{ .text }}</span>
+            </a>
+          </li>
+      {{ end }}
+      {{ range .Site.Menus.main }}
+          <li class="header-menu-list-item">
+            <a href="{{ .URL }}" class="header-menu-item">
+                <span>{{ .Title }}</span>
+            </a>
+          </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

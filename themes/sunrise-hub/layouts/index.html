@@ -1,9 +1,8 @@
-<!DOCTYPE HTML>
-<html lang="en">
-  {{- partial "head.html" . -}}
-  <body>
-    <!-- Header -->
-    <header class="header masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
+{{ define "header" }}
+  <div class="index-header-positioner">
+    {{- partial "header.html" . -}}
+
+    <div class="masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
       <div class="container">
         <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
 
@@ -11,16 +10,15 @@
           {{.Params.joinText}}
         </a>
       </div>
-    </header>
+    </div>
+  </div>
+{{ end }}
 
+{{ define "main" }}
 
-    <!-- Body -->
-    <section class="section">
-      <div class="container">
-        {{.Content}}
-      </div>
-    </section>
-
-    {{- partial "footer.html" . -}}
-  </body>
-</html>
+  <section class="section">
+    <div class="container">
+      {{.Content}}
+    </div>
+  </section>
+{{ end }}

@@ -8,9 +8,48 @@ window.themeCMSConfig = {
       "name": "data",
       "files": [
         {
-          "label": "Settings",
-          "name": "settings",
-          "file": "data/settings.yml",
+          "label": "Header",
+          "name": "header",
+          "file": "data/header.yml",
+          "fields": [
+            {
+              "label": "Logo",
+              "name": "logo",
+              "widget": "image"
+            },
+            {
+              "label": "Hub Name Top Line",
+              "name": "navbarNameTop",
+              "widget": "string"
+            },
+            {
+              "label": "Hub Name Bottom Line",
+              "name": "navbarNameBottom",
+              "widget": "string"
+            },
+            {
+              "label": "Additional Menu Items",
+              "name": "menuItems",
+              "widget": "list",
+              "fields": [
+                { 
+                  "label": "Link Text", 
+                  "name": "text", 
+                  "widget": "string" 
+                },
+                { 
+                  "label": "Link Url", 
+                  "name": "url", 
+                  "widget": "string" 
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Footer",
+          "name": "footer",
+          "file": "data/footer.yml",
           "fields": [
             {
               "label": "Facebook URL",
@@ -35,8 +74,8 @@ window.themeCMSConfig = {
       ]
     },
     {
-      "label": "Pages",
-      "name": "pages",
+      "label": "Home Page",
+      "name": "homepage",
       "files": [
         {
           "label": "Index Page",
@@ -74,6 +113,42 @@ window.themeCMSConfig = {
               "widget": "markdown"
             }
           ]
+        }
+      ]
+    },
+    {
+      "label": "Pages",
+      "name": "pages",
+      "create": true,
+      "folder": "content/pages",
+      "fields": [
+        {
+          "label": "Title", 
+          "name": "title", 
+          "widget": "string"
+        },
+        {
+          "label": "Url (e.g. /about)", 
+          "name": "url", 
+          "widget": "string"
+        },
+        { 
+          "label": "Menu",
+          "name": "menu",
+          "widget": "select",
+          "multiple": true,
+          "options": ["main"],
+          "default": []
+        },
+        {
+          "label": "Masthead Image",
+          "name": "mastheadImage",
+          "widget": "image"
+        },
+        {
+          "label": "Content",
+          "name": "body", 
+          "widget": "markdown"
         }
       ]
     },

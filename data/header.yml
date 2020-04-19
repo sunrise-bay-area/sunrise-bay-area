@@ -1,0 +1,6 @@
+logo: /img/logo_yellow.webp
+navbarNameTop: Sunrise Movement
+navbarNameBottom: Bay Area
+menuItems:
+  - text: Blog
+    url: https://medium.com/@sunrisebayarea

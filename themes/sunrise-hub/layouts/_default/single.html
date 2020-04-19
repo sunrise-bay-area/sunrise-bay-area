@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="short-masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
+    <div class="container">
+      <h1><span>{{.Params.title}}</span></h1>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      {{.Content}}
+    </div>
+  </section>
+{{ end }}
