@@ -182,19 +182,18 @@ p {
     text-align: center;
 }
 
-.banner button {
-    align-content: center;
-}
-
 .banner a {
     font-weight: 900;
     color: var(--base-primary-color);
 }
 
+
 #banner-close {
     position: absolute;
-    top: 2px;
+    top: 1px;
     right: 5px;
+    font-family: helvetica,arial,sans-serif !important;
+    font-weight: lighter !important;
 }
 
 .video-container {

@@ -3,22 +3,21 @@
   <a class="btn-primary" href="{{ .Site.Data.header.banner.url }}" rel="noreferrer" target="_blank">
     {{ .Site.Data.header.banner.text }}
   </a>
-  <button class="btn btn-secondary rounded-circle" id="banner-close">
-      <i class="icon-close"></i>
-      <p class="hidden">Close</p>
+  <button class="btn btn-secondary " id="banner-close">
+      x
   </button>
 </div>
 <!-- Banner close functionality -->
 <script type="text/javascript">
   const setting = 'show-sunrise-banner-{{ .Site.Data.header.banner.id }}';
   const banner = document.getElementById('banner');
-  const count = parseInt(localStorage.getItem(setting));
+  const count = parseInt(localStorage.getItem(setting) ) || 0;
   document.getElementById('banner-close').onclick = (ev) => {
     banner.style = 'display:none;';
     localStorage.setItem(setting, count + 1);
   };
-  // After closing 5 times, don't show anymore
-  if((localStorage.getItem(setting) >= 5)) {
+  // After closing 3 times, don't show anymore
+  if((localStorage.getItem(setting) >= 3)) {
     banner.style = 'display:none;';
   }
 </script>
