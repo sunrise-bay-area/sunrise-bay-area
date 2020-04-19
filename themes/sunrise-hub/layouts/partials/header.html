@@ -3,7 +3,10 @@
   <a class="btn-primary" href="{{ .Site.Data.header.banner.url }}" rel="noreferrer" target="_blank">
     {{ .Site.Data.header.banner.text }}
   </a>
-  <button class="btn btn-secondary" id="banner-close">X</button>
+  <button class="btn btn-secondary rounded-circle" id="banner-close">
+      <i class="icon-close"></i>
+      <p class="hidden">Close</p>
+  </button>
 </div>
 <!-- Banner close functionality -->
 <script type="text/javascript">
