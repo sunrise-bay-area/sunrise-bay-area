@@ -19,12 +19,12 @@ window.themeCMSConfig = {
             },
             {
               "label": "Hub Name Top Line",
-              "name": "navbarnametop",
+              "name": "navbarNameTop",
               "widget": "string"
             },
             {
               "label": "Hub Name Bottom Line",
-              "name": "navbarnamebottom",
+              "name": "navbarNameBottom",
               "widget": "string"
             },
             {
