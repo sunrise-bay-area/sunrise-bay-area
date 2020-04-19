@@ -4,3 +4,7 @@ navbarNameBottom: Bay Area
 menuItems:
   - text: Blog
     url: https://medium.com/@sunrisebayarea
+banner:
+  url: https://secure.actblue.com/donate/sunrisebayarea?refcode=covid-19-mutual-aid
+  text: Donate to the Sunrise Bay Area COVID-19 Mututal Aid Fund
+  id: covid19

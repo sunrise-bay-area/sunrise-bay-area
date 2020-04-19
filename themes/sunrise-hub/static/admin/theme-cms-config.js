@@ -32,15 +32,41 @@ window.themeCMSConfig = {
               "name": "menuItems",
               "widget": "list",
               "fields": [
-                { 
-                  "label": "Link Text", 
-                  "name": "text", 
-                  "widget": "string" 
+                {
+                  "label": "Link Text",
+                  "name": "text",
+                  "widget": "string"
                 },
-                { 
-                  "label": "Link Url", 
-                  "name": "url", 
-                  "widget": "string" 
+                {
+                  "label": "Link Url",
+                  "name": "url",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "label": "Banner",
+              "name": "banner",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Banner URL",
+                  "name": "url",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Banner Text",
+                  "name": "text",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Banner ID (no spaces!)",
+                  "name": "id",
+                  "widget": "string",
+                  "required": false
                 }
               ]
             }
@@ -129,16 +155,16 @@ window.themeCMSConfig = {
       "folder": "content/pages",
       "fields": [
         {
-          "label": "Title", 
-          "name": "title", 
+          "label": "Title",
+          "name": "title",
           "widget": "string"
         },
         {
-          "label": "Url (e.g. /about)", 
-          "name": "url", 
+          "label": "Url (e.g. /about)",
+          "name": "url",
           "widget": "string"
         },
-        { 
+        {
           "label": "Menu",
           "name": "menu",
           "widget": "select",
@@ -153,7 +179,7 @@ window.themeCMSConfig = {
         },
         {
           "label": "Content",
-          "name": "body", 
+          "name": "body",
           "widget": "markdown"
         }
       ]
