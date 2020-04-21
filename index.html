@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html lang="en"><head>
+<html lang="en">
+  <head>
 	<meta name="generator" content="Hugo 0.69.0" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,11 +14,62 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="/css/main.css" />
 </head>
-<body>
+
+  <body>
     
-    <header class="header masthead" style="background-image: radial-gradient(#fff, #111), url(/img/splashpage-grey.webp)">
+  <div class="index-header-positioner">
+<div class="banner" id="banner">
+  <a class="btn-primary" href="https://secure.actblue.com/donate/sunrisebayarea?refcode=covid-19-mutual-aid" rel="noreferrer" target="_blank">
+    Donate to the Sunrise Bay Area COVID-19 Mututal Aid Fund
+  </a>
+  <button class="btn btn-secondary " id="banner-close">
+      x
+  </button>
+</div>
+
+<script type="text/javascript">
+  const setting = 'show-sunrise-banner-covid19';
+  const banner = document.getElementById('banner');
+  const count = parseInt(localStorage.getItem(setting) ) || 0;
+  document.getElementById('banner-close').onclick = (ev) => {
+    banner.style = 'display:none;';
+    localStorage.setItem(setting, count + 1);
+  };
+  
+  if((localStorage.getItem(setting) >= 3)) {
+    banner.style = 'display:none;';
+  }
+</script>
+
+<header class="main-header">
+  <nav class="header-nav">
+    <a href="/" class="header-nav-home-link">
+      <img src="/img/logo_yellow.webp" class="header-nav-logo" />
+      <div class="header-nav-mvmt-text">
+        <span class="header-nav-mvmt">Sunrise Movement</span>
+        <span class="header-nav-hub-name">Bay Area</span>
+      </div>
+    </a>
+    <ul class="header-menu">
+      <li class="header-menu-list-item">
+        <a href="/" class="header-menu-item">
+            <span>Home</span>
+        </a>
+      </li>
+      
+          <li class="header-menu-list-item">
+            <a href="https://medium.com/@sunrisebayarea" class="header-menu-item" rel="noreferrer" target="_blank">
+                <span>Blog</span>
+            </a>
+          </li>
+      
+      
+    </ul>
+  </nav>
+</header>
+<div class="masthead" style="background-image: radial-gradient(#fff, #111), url(/img/splashpage-grey.webp)">
       <div class="container">
         <h1 id="title-text"><span>Join the movement that is changing the world</span></h1>
 
@@ -25,13 +77,15 @@
           Join Bay Area Hub
         </a>
       </div>
-    </header>
+    </div>
+  </div>
 
 
     
-    <section class="section">
-      <div class="container">
-        <h2 id="who-we-are">Who We Are</h2>
+
+  <section class="section">
+    <div class="container">
+      <h2 id="who-we-are">Who We Are</h2>
 <p>Sunrise is a national movement to stop climate change and create millions of good jobs in the process. Sunrise Bay Area is one of the many local hubs that have sprung up nationwide to bring that movement to life!</p>
 <p>We&rsquo;re building an army of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people.</p>
 <p>
@@ -70,8 +124,11 @@
   </a>
 </p>
 
-      </div>
-    </section>
+    </div>
+  </section>
+
+
+    
 <footer class="footer center">
   <div class="container">
     <ul class="list-inline">
@@ -99,9 +156,18 @@
           </a>
         </li>
       
+      
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white" href="mailto:press@sunrisebayarea.org" target="_top" rel="noreferrer">
+          <i class="icon-envelope"></i>
+          <p class="hidden">Email</p>
+        </a>
+      </li>
+      
     </ul>
     <p class="copyright">Copyright &copy; Sunrise Movement 2020</p>
   </div>
 </div>
-</body>
+
+  </body>
 </html>
