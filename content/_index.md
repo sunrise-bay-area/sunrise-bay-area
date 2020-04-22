@@ -2,8 +2,7 @@
 title: Sunrise Bay Area
 mastheadImage: /img/splashpage-grey.webp
 bannerWelcome: Join the movement that is changing the world
-joinUrl: >-
-  https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
+joinUrl: https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
 joinText: Join Bay Area Hub
 ---
 ## Who We Are
@@ -12,13 +11,11 @@ Sunrise is a national movement to stop climate change and create millions of goo
 
 We're building an army of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people.
 
-
 <p>
   <a href="https://docs.google.com/document/d/1ayVhE6cH76tCCW2kfI9MnD8T58In9te1XHk4L-0q9-Q/edit" target="_blank" rel="noreferrer">
     Learn More About the Movement
   </a>
 </p>
-
 
 <p>
   <a href="https://www.congress.gov/116/bills/hres109/BILLS-116hres109ih.pdf" target="_blank" rel="noreferrer">
@@ -26,11 +23,10 @@ We're building an army of young people to make climate change an urgent priority
   </a>
 </p>
 
-
 <div class="video-container">
-  <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" title="Generation Green New Deal sneak peak [Spanish subtitles]" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" title="Generation Green New Deal sneak peak \[Spanish subtitles]" allowfullscreen></iframe>
   <p>
-    <a href="https://vimeo.com/387877356" rel="noreferrer">Generation Green New Deal sneak peak [Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen" rel="noreferrer">Sam Eilertsen</a> on <a href="https://vimeo.com" rel="noreferrer">Vimeo</a>.
+    <a href="https://vimeo.com/387877356" rel="noreferrer">Generation Green New Deal sneak peak \[Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen" rel="noreferrer">Sam Eilertsen</a> on <a href="https://vimeo.com" rel="noreferrer">Vimeo</a>.
   </p>
 </div>
 
@@ -48,7 +44,6 @@ As a local hub, Sunrise Bay Area is one of many in-person communities making thi
   </a>
 </p>
 
-
 <p>
   <a href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank" rel="noreferrer">
     Donate to our Equity Fund
@@ -56,8 +51,7 @@ As a local hub, Sunrise Bay Area is one of many in-person communities making thi
 </p>
 
 <p>
-  <a href="https://forms.gle/5xwpYBHiy3vYMPYu5" target="_blank" rel="noreferrer">
-    Sign up for our Orientation Training on March 28th, 2020
+  <a href="https://www.sbaearthday.com/" target="_blank" rel="noreferrer">
+    Tune in to Sunrise Bay Area's Earth Day 2020
   </a>
 </p>
-
