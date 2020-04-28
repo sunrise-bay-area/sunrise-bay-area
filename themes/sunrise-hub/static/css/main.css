@@ -63,7 +63,6 @@ h3 {
 a {
     color: var(--primary-color);
     text-decoration: none;
-    border-bottom: 2px solid var(--primary-color);
     transition: .5s ease;
 }
 
@@ -131,6 +130,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    letter-spacing: .15em;
 }
 
 .header-nav-mvmt {
@@ -174,7 +174,7 @@ p {
 
 p {
     text-align: justify;
-    font-size: 1.25rem;
+    font-size: 18px;
     margin-bottom: 2em;
 }
 
@@ -292,24 +292,27 @@ p {
 }
 
 .copyright {
-    font-size: .8rem;
     color: var(--secondary-color);
     text-align: center;
-    padding: 10px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    margin: 0px;
 }
 
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-color: var(--base-primary-color);
 }
 
 .footer .social-link {
     display: block;
-    height: 4rem;
-    width: 4rem;
-    line-height: 4.3rem;
-    font-size: 1.5rem;
-    background-color: #666;
+    height: 36px;
+    width: 36px;
+    padding: 8px;
+    font-size: 18px;
+    color: var(--base-primary-color);
+    background-color: white;
     transition: background-color 0.15s ease-in-out;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -317,6 +320,10 @@ p {
 .footer .social-link:hover {
     background-color: #ccc;
     text-decoration: none;
+}
+
+.footer-element {
+    padding: 20px 0px;
 }
 
 
