@@ -4,7 +4,7 @@
     --primary-color: #FFDE16;
     --secondary-color: #E3EDDF;
     --base-primary-color: #33342E;
-    --base-secondary-color: #33342E;
+    --base-secondary-color: #FFFFFF;
     --font: 'Source Sans Pro', serif;
 }
 
@@ -31,15 +31,15 @@ time, mark, audio, video {
 }
 
 body {
-    color: var(--secondary-color);
-    background-color: var(--base-primary-color);
+    color: var(--base-primary-color);
+    background-color: var(--base-secondary-color);
     font-family: var(--font);
 }
 
 h1, h2 {
     color: var(--primary-color);
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-bottom: 1.5em;
     font-family: var(--font);
     font-weight: bold;
@@ -81,8 +81,10 @@ p {
 
 /* Header styles */
 .main-header {
+    position: fixed;
+    z-index: 1;
     width: 100%;
-    background-color: var(--base-secondary-color);
+    background-color: var(--base-primary-color);
     padding: 10px 100px;
 }
 
@@ -102,6 +104,7 @@ p {
     line-height: 1.75rem;
     margin: 0 25px;
     font-weight: bold;
+    letter-spacing: .15em;
 }
 
 .header-menu {
@@ -111,7 +114,7 @@ p {
 }
 
 .header-nav-home-link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     display: flex;
     font-weight: bold;
     border-bottom: none;
@@ -133,7 +136,7 @@ p {
 .header-nav-mvmt {
   display: block;
   font-size: 1rem;
-  line-height: 0.75rem;
+  line-height: 1rem;
 }
 
 .header-nav-hub-name {
@@ -228,6 +231,8 @@ p {
     height: 100%;
     padding-top: 8rem;
     padding-bottom: 8rem;
+    padding-right: 100px;
+    padding-left: 100px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,6 +255,22 @@ p {
     background-size: cover;
     background-blend-mode: darken;
     margin-bottom: 40px;
+}
+
+.masthead-donate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.masthead-title {
+    margin: 0% 10%;
+}
+
+.masthead-join {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -326,6 +347,10 @@ p {
 .btn {
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
     font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    border-radius: 0;
+    padding: 12px 18px;
 }
 
 .btn a {
