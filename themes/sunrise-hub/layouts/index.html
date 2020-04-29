@@ -3,17 +3,10 @@
     {{- partial "header.html" . -}}
 
     <div class="masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
-      <div class="masthead-donate">
-        <a class="btn btn-primary">
-          <span>Donate</span>
-        </a>
-      </div>
-      <div class="masthead-title">
+      <div class="container center">
         <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
-      </div>
-      <div class="masthead-join">
         <a class="btn btn-primary" href={{.Params.joinUrl}} rel="noreferrer" target="_blank">
-          <span>Join Sunrise Bay Area</span>
+          <span>{{.Params.joinText}}</span>
         </a>
       </div>
     </div>
