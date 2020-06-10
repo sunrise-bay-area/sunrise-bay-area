@@ -1,7 +1,7 @@
 ---
 title: Sunrise Bay Area
 mastheadImage: /img/splashpage-grey.webp
-bannerWelcome: Join the movement that is changing the world
+bannerWelcome: Join the movement for a livable future
 joinUrl: https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
 joinText: Join Bay Area Hub
 ---
