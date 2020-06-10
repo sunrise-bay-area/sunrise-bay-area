@@ -37,9 +37,14 @@ deploy:
     on:
       branch: dev
   # Release to sfbay.sunrisemovement.org
-  - provider: script
+  - provider: pages
+    repo: sunrise-bay-area/national-deploy
     skip_cleanup: true
-    script: bin/deploy release
+    target_branch: master
+    local_dir: public
+    github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep_history: true
+    fqdn: sfbay.sunrisemovement.org
     on:
       branch: master
 
