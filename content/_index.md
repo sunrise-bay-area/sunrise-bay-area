@@ -24,9 +24,9 @@ We're building an army of young people to make climate change an urgent priority
 </p>
 
 <div class="video-container">
-  <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" title="Generation Green New Deal sneak peak \[Spanish subtitles]" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" title="Generation Green New Deal sneak peak \\[Spanish subtitles]" allowfullscreen></iframe>
   <p>
-    <a href="https://vimeo.com/387877356" rel="noreferrer">Generation Green New Deal sneak peak \[Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen" rel="noreferrer">Sam Eilertsen</a> on <a href="https://vimeo.com" rel="noreferrer">Vimeo</a>.
+    <a href="https://vimeo.com/387877356" rel="noreferrer">Generation Green New Deal sneak peak \\[Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen" rel="noreferrer">Sam Eilertsen</a> on <a href="https://vimeo.com" rel="noreferrer">Vimeo</a>.
   </p>
 </div>
 
@@ -47,11 +47,5 @@ As a local hub, Sunrise Bay Area is one of many in-person communities making thi
 <p>
   <a href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank" rel="noreferrer">
     Donate to our Equity Fund
-  </a>
-</p>
-
-<p>
-  <a href="https://www.sbaearthday.com/" target="_blank" rel="noreferrer">
-    Tune in to Sunrise Bay Area's Earth Day 2020
   </a>
 </p>
