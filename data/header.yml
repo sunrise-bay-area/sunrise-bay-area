@@ -5,6 +5,6 @@ menuItems:
   - text: Blog
     url: https://medium.com/@sunrisebayarea
 banner:
-  url: https://secure.actblue.com/donate/sunrisebayarea?refcode=covid-19-mutual-aid
-  text: Donate to the Sunrise Bay Area COVID-19 Mututal Aid Fund
-  id: covid19
+  url: https://docs.google.com/document/d/1AHf9sCCXX-BW3H0Db8mFNXdeCcaH3YjosZ-2nFzXRMQ/edit
+  text: Black Lives Matter. Join a local protest today.
+  id: blm2020-06
