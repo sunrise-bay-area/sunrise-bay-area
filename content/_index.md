@@ -3,55 +3,44 @@ title: Sunrise Bay Area
 mastheadImage: /img/splashpage-grey.webp
 bannerWelcome: Join the movement for a livable future
 joinUrl: https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
-joinText: Join Bay Area Hub
+joinText: Join Sunrise Bay Area
 ---
 ## Who We Are
 
-Sunrise is a national movement to stop climate change and create millions of good jobs in the process. Sunrise Bay Area is one of the many local hubs that have sprung up nationwide to bring that movement to life!
+We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​
 
-We're building an army of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people.
+We're building a movement of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people.
 
-<p>
-  <a href="https://docs.google.com/document/d/1ayVhE6cH76tCCW2kfI9MnD8T58In9te1XHk4L-0q9-Q/edit" target="_blank" rel="noreferrer">
-    Learn More About the Movement
+We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind.
+
+<div class="btn-group">
+  <a class="btn btn-primary" href="https://www.sunrisemovement.org/about" target="_blank" rel="noreferrer">
+    Learn About the Movement
   </a>
-</p>
-
-<p>
-  <a href="https://www.congress.gov/116/bills/hres109/BILLS-116hres109ih.pdf" target="_blank" rel="noreferrer">
-    Read the Green New Deal Resolution
+  <a class="btn btn-primary" href="https://www.sunrisemovement.org/green-new-deal" target="_blank" rel="noreferrer">
+    Learn About the Green New Deal
   </a>
-</p>
+</div>
 
 <div class="video-container">
-  <iframe src="https://player.vimeo.com/video/387877356" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" title="Generation Green New Deal sneak peak \[Spanish subtitles]" allowfullscreen></iframe>
-  <p>
-    <a href="https://vimeo.com/387877356" rel="noreferrer">Generation Green New Deal sneak peak \[Spanish subtitles]</a> from <a href="https://vimeo.com/sameilertsen" rel="noreferrer">Sam Eilertsen</a> on <a href="https://vimeo.com" rel="noreferrer">Vimeo</a>.
-  </p>
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 </div>
 
 ## What We Do
 
-### And How You Can, Too!
-
 We’re making the climate crisis a decisive issue in the 2020 election by mobilizing millions, turning up the heat, and forcing the media to tell our story: our future is at stake, and we demand a real plan for addressing the climate crisis.
 
-As a local hub, Sunrise Bay Area is one of many in-person communities making this movement real. We organize strikes, pressure local politicians, make art, host trainings, throw parties, and more!
+As a local hub, Sunrise Bay Area is one of many in-person communities across this country making this movement real. We organize nonviolent direct actions, pressure local politicians, knock doors to get out the vote, make art, host trainings, and have a lot of fun.
 
-<p>
-  <a href="https://bit.ly/sunrisenewmembersurvey" target="_blank" rel="noreferrer">
-    Connect with our Welcoming Crew and Get Plugged In!
-  </a>
-</p>
+## Support Our Movement
 
-<p>
-  <a href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank" rel="noreferrer">
-    Donate to our Equity Fund
-  </a>
-</p>
+Join our mailing list to hear about upcoming actions, trainings, and open meetings. And support our work by making a donation. Contributions like yours make what we do possible. 
 
-<p>
-  <a href="https://www.sbaearthday.com/" target="_blank" rel="noreferrer">
-    Tune in to Sunrise Bay Area's Earth Day 2020
+<div class="btn-group">
+  <a class="btn btn-primary" href="https://bit.ly/joinsunrisebayarea" target="_blank" rel="noreferrer">
+    Join Our Mailing List
   </a>
-</p>
+  <a class="btn btn-primary" href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank" rel="noreferrer">
+    Donate To The Hub
+  </a>
+</div>
