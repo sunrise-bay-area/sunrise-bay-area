@@ -1,31 +1,32 @@
-{{ if isset .Site.Data.header.banner "text" }}
-<div class="banner" id="banner">
-  <a class="btn-primary" href="{{ .Site.Data.header.banner.url }}" rel="noreferrer" target="_blank">
-    {{ .Site.Data.header.banner.text }}
-  </a>
-  <button class="btn btn-secondary " id="banner-close">
-      x
-  </button>
-</div>
-<!-- Banner close functionality -->
-<script type="text/javascript">
-  const setting = 'show-sunrise-banner-{{ .Site.Data.header.banner.id }}';
-  const banner = document.getElementById('banner');
-  const count = parseInt(localStorage.getItem(setting) ) || 0;
-  document.getElementById('banner-close').onclick = (ev) => {
-    banner.style = 'display:none;';
-    localStorage.setItem(setting, count + 1);
-  };
-  // After closing 3 times, don't show anymore
-  if((localStorage.getItem(setting) >= 3)) {
-    banner.style = 'display:none;';
-  }
-</script>
-{{ end }}
+
 <header class="main-header">
+  {{ if isset .Site.Data.header.banner "text" }}
+  <div class="banner" id="banner">
+    <a class="btn-primary" href="{{ .Site.Data.header.banner.url }}" rel="noreferrer" target="_blank">
+      {{ .Site.Data.header.banner.text }}
+    </a>
+    <button class="btn btn-secondary " id="banner-close">
+        x
+    </button>
+  </div>
+  <!-- Banner close functionality -->
+  <script type="text/javascript">
+    const setting = 'show-sunrise-banner-{{ .Site.Data.header.banner.id }}';
+    const banner = document.getElementById('banner');
+    const count = parseInt(localStorage.getItem(setting) ) || 0;
+    document.getElementById('banner-close').onclick = (ev) => {
+      banner.style = 'display:none;';
+      localStorage.setItem(setting, count + 1);
+    };
+    // After closing 3 times, don't show anymore
+    if((localStorage.getItem(setting) >= 3)) {
+      banner.style = 'display:none;';
+    }
+  </script>
+  {{ end }}
   <nav class="header-nav">
     <a href="/" class="header-nav-home-link">
-      <img src="{{.Site.Data.header.logo}}" class="header-nav-logo" />
+      <img src="{{.Site.Data.header.logo}}" class="header-nav-logo" loading="lazy" alt="Sunrise Movement" />
       <div class="header-nav-mvmt-text">
         <span class="header-nav-mvmt">{{.Site.Data.header.navbarNameTop}}</span>
         <span class="header-nav-hub-name">{{.Site.Data.header.navbarNameBottom}}</span>
@@ -51,6 +52,12 @@
             </a>
           </li>
       {{ end }}
+      <li>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform" class="btn btn-primary" rel="noreferrer" target="_blank">
+          <span>Join</span>
+        </a>
+        
+      </li>
     </ul>
   </nav>
 </header>
