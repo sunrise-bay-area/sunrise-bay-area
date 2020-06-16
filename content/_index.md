@@ -23,7 +23,7 @@ We work to pass Green New Deal legislation at the local, state, and federal leve
 </div>
 
 <div class="video-container">
-  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" title="California Just Transition and the Green New Deal"></iframe>
 </div>
 
 ## What We Do
