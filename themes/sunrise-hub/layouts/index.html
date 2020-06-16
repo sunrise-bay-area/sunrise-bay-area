@@ -2,12 +2,11 @@
   <div class="index-header-positioner">
     {{- partial "header.html" . -}}
 
-    <div class="masthead" style="background-image: radial-gradient(#fff, #111), url({{.Params.mastheadImage}})">
-      <div class="container">
+    <div class="masthead" style="background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url({{.Params.mastheadImage}})">
+      <div class="container center">
         <h1 id="title-text"><span>{{.Params.bannerWelcome}}</span></h1>
-
         <a class="btn btn-primary" href={{.Params.joinUrl}} rel="noreferrer" target="_blank">
-          {{.Params.joinText}}
+          <span>{{.Params.joinText}}</span>
         </a>
       </div>
     </div>

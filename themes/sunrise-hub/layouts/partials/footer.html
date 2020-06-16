@@ -1,40 +1,49 @@
 <!-- Footer -->
 <footer class="footer center">
   <div class="container">
-    <ul class="list-inline">
-      {{ with .Site.Data.footer.facebookUrl }}
+    <div class="footer-element">
+      <a class="btn btn-primary">
+        <span>Donate to Sunrise Bay Area</span>
+      </a>
+    </div>
+    <div class="footer-element">
+      <ul class="list-inline">
+        {{ with .Site.Data.footer.facebookUrl }}
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="{{ . }}" target="_blank" rel="noreferrer">
+              <i class="icon-social-facebook"></i>
+              <p class="hidden">Facebook</p>
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Site.Data.footer.twitterUrl }}
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="{{ . }}" target="_blank" rel="noreferrer">
+              <i class="icon-social-twitter"></i>
+              <p class="hidden">Twitter</p>
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Site.Data.footer.instagramUrl }}
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="{{ . }}" target="_blank" rel="noreferrer">
+              <i class="icon-social-instagram"></i>
+              <p class="hidden">Instagram</p>
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Site.Data.footer.email }}
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank" rel="noreferrer">
-            <i class="icon-social-facebook"></i>
-            <p class="hidden">Facebook</p>
+          <a class="social-link rounded-circle" href="mailto:{{ . }}" target="_top" rel="noreferrer">
+            <i class="icon-envelope"></i>
+            <p class="hidden">Email</p>
           </a>
         </li>
-      {{ end }}
-      {{ with .Site.Data.footer.twitterUrl }}
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank" rel="noreferrer">
-            <i class="icon-social-twitter"></i>
-            <p class="hidden">Twitter</p>
-          </a>
-        </li>
-      {{ end }}
-      {{ with .Site.Data.footer.instagramUrl }}
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="{{ . }}" target="_blank" rel="noreferrer">
-            <i class="icon-social-instagram"></i>
-            <p class="hidden">Instagram</p>
-          </a>
-        </li>
-      {{ end }}
-      {{ with .Site.Data.footer.email }}
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white" href="mailto:{{ . }}" target="_top" rel="noreferrer">
-          <i class="icon-envelope"></i>
-          <p class="hidden">Email</p>
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-    <p class="copyright">Copyright &copy; Sunrise Movement 2020</p>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="footer-element">
+      <p class="copyright">Copyright &copy; Sunrise Movement 2020</p>
+    </div>
   </div>
 </div>

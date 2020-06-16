@@ -4,6 +4,8 @@ navbarNameBottom: Bay Area
 menuItems:
   - text: Blog
     url: https://medium.com/@sunrisebayarea
+  - text: Donate
+    url: https://secure.actblue.com/donate/sunrisebayarea
 banner:
   url: https://docs.google.com/document/d/1AHf9sCCXX-BW3H0Db8mFNXdeCcaH3YjosZ-2nFzXRMQ/edit
   text: Black Lives Matter. Join a local protest today.
