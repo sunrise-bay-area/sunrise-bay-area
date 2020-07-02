@@ -1,6 +1,6 @@
 ---
 title: Sunrise Bay Area
-mastheadImage: /img/splashpage-grey.webp
+mastheadImage: /img/splashpage-grey.png
 bannerWelcome: Join the movement for a livable future
 joinUrl: https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
 joinText: Join Sunrise Bay Area
@@ -32,6 +32,10 @@ We’re making the climate crisis a decisive issue in the 2020 election by mobil
 
 As a local hub, Sunrise Bay Area is one of many in-person communities across this country making this movement real. We organize nonviolent direct actions, pressure local politicians, knock doors to get out the vote, make art, host trainings, and have a lot of fun.
 
+Check out our events to see how you can get involved in building a livable future for the Bay Area!
+
+<iframe class="calendar" src="https://calendar.google.com/calendar/embed?title=Sunrise%20Bay%20Area%20Events&amp;src=sunrisemovement.org_5hjrpci2cqu30orbhfj1l23bck%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=sunrisemovement.org_p247h08c9322tutrdf7e70js8o%40group.calendar.google.com&amp;color=%23333333&amp;ctz=America%2FLos_Angeles&amp;showTabs=0&amp;showPrint=0" frameborder="0" scrolling="no"></iframe>
+
 ## Support Our Movement
 
 Join our mailing list to hear about upcoming actions, trainings, and open meetings. And support our work by making a donation. Contributions like yours make what we do possible. 
@@ -44,3 +48,9 @@ Join our mailing list to hear about upcoming actions, trainings, and open meetin
     Donate To The Hub
   </a>
 </div>
+
+## Contact Us
+
+For general inquries, send us an email at bayarea@sunrisemovement.org.
+
+To request a Sunrise presentation for your organization, please [fill out this form](https://bit.ly/sunrisepresentations).
