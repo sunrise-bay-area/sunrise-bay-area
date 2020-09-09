@@ -30,12 +30,6 @@ deploy:
     keep_history: true
     on:
       branch: master
-  # Stage to sfbay.sunrisemovement.dev
-  - provider: script
-    skip_cleanup: true
-    script: bin/deploy stage
-    on:
-      branch: dev
   # Release to sfbay.sunrisemovement.org
   - provider: pages
     repo: sunrise-bay-area/national-deploy

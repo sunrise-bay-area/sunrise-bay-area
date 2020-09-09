@@ -25,11 +25,11 @@ Before each fortnightly meeting, we will move the highest-priority issues into t
 
 If you're interested in working on an issue in the to-do column, give a heads up in the comments, assign yourself to the issue, and move the issue to the in-progress column. If the requirements for the issue are unclear, feel free to ask for further specifications in the comments, or in #hub-website.
 
-To contribute a change to the site, please work in feature branches from `dev`. When your change is ready, make a PR into `dev`. Make sure that you link the GH issue from your PR. Once reviewed and approved, squash & merge into `dev`. Remember to update card in the project board by moving it into the "reviewer approved" column. 
+To contribute a change to the site, please work in feature branches from `master`. When your change is ready, make a PR into `master`. Make sure that you link the GH issue from your PR. Once reviewed and approved, squash & merge into `master`. Remember to update card in the project board by moving it into the "reviewer approved" column. 
 
 Any member of our Github organization can review PRs to the repo. 
 
-Changes to the repo will automatically be staged and release via Travis. When merged into `dev`, your changes will be published in our staging url [sfbay.sunrisemovement.dev](https://sfbay.sunrisemovement.dev). When we're ready for a collection of changes to go live, we'll make a PR from `dev` into `master`. These will be viewable from [sfbay.sunrisemovement.org](https://sfbay.sunrisemovement.org).
+Changes to the repo will automatically be staged and release via Travis. After changes are merged into `master` and the build passes, they will be viewable from [sfbay.sunrisemovement.org](https://sfbay.sunrisemovement.org).
 
 If you need assistance with any part of this process, please feel free to request help in #hub-website! We are super excited to have folks contribute to the website, and are happy to help you get started.
 
