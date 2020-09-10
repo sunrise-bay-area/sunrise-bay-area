@@ -5,7 +5,7 @@ menuItems:
   - text: Blog
     url: https://medium.com/@sunrisebayarea
   - text: Donate
-    url: https://secure.actblue.com/donate/sunrisebayarea
+    url: https://secure.actblue.com/donate/sunrisebayarea?refcode=website
 banner:
   url: https://www.facebook.com/events/685634908694824
   text: Learn how you can help defeat Trump & flip the Senate.
