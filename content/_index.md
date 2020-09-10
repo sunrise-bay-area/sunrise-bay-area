@@ -44,7 +44,7 @@ Join our mailing list to hear about upcoming actions, trainings, and open meetin
   <a class="btn btn-primary" href="https://bit.ly/joinsunrisebayarea" target="_blank" rel="noreferrer">
     Join Our Mailing List
   </a>
-  <a class="btn btn-primary" href="https://secure.actblue.com/donate/sunrisebayarea" target="_blank" rel="noreferrer">
+  <a class="btn btn-primary" href="<https://secure.actblue.com/donate/sunrisebayarea?refcode=website>" target="_blank" rel="noreferrer">
     Donate To The Hub
   </a>
 </div>
