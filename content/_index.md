@@ -2,7 +2,7 @@
 title: Sunrise Bay Area
 mastheadImage: /img/splashpage-grey.png
 bannerWelcome: Join the movement for a livable future
-joinUrl: https://docs.google.com/forms/d/e/1FAIpQLScQQ5mV2fJ8sIbhYNVm5XwnhAjymxllwMJ0EqIe3bkj-750ew/viewform
+joinUrl: https://docs.google.com/forms/d/e/1FAIpQLSeU23FdVFlopiR_TEASxYoLILAcSZdFQtDJPLwXuhaoU1PatQ/viewform
 joinText: Join Sunrise Bay Area
 ---
 ## Who We Are
