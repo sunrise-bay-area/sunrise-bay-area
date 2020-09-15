@@ -1,6 +1,7 @@
 logo: /img/logo_yellow.png
 navbarNameTop: Sunrise Movement
 navbarNameBottom: Bay Area
+joinUrl: https://docs.google.com/forms/d/e/1FAIpQLSeU23FdVFlopiR_TEASxYoLILAcSZdFQtDJPLwXuhaoU1PatQ/viewform
 menuItems:
   - text: Blog
     url: https://medium.com/@sunrisebayarea
