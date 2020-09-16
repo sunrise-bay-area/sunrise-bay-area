@@ -8,6 +8,6 @@ menuItems:
   - text: Donate
     url: https://secure.actblue.com/donate/sunrisebayarea?refcode=website
 banner:
-  url: https://www.mobilize.us/sunrise2020/event/321587/?rname=Website&share_context=event_details&share_medium=website
+  url: https://www.mobilize.us/sunrise2020/event/321587/?share_context=event_details&share_medium=website
   text: Learn how you can elect Green New Deal champions and defeat Trump.
   id: phonebank2020-09-15
