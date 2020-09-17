@@ -18,7 +18,7 @@ joinText: Join Sunrise Bay Area
       We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind.
     </p>
 
-  <div class="btn-group">
+  <div class="btn-group-vertical">
       <a class="btn btn-primary" href="https://www.sunrisemovement.org/about" target="_blank" rel="noreferrer">
         Learn About the Movement
       </a>
@@ -88,7 +88,7 @@ joinText: Join Sunrise Bay Area
     <p>
       Tune in each month as we speak with experts, share stories from real people affected by climate change, and map out what it will take to build a livable future. Now available on these platforms:
     </p>
-    <div class="btn-group">
+    <div class="btn-group-vertical">
       <a class="btn btn-primary" href="https://open.spotify.com/show/2wOP4ZBibLC081qmwYLpvx?si=Hs6XWPVRSVWgOnzV120Qcg" target="_blank" rel="noreferrer">
         Spotify
       </a>
@@ -111,7 +111,7 @@ joinText: Join Sunrise Bay Area
     <p>
       Join our mailing list to hear about upcoming actions, trainings, and open meetings. And support our work by making a donation. Contributions like yours make what we do possible. 
     </p>
-    <div class="btn-group">
+    <div class="btn-group-vertical">
       <a class="btn btn-primary" href="https://bit.ly/joinsunrisebayarea" target="_blank" rel="noreferrer">
         Join Our Mailing List
       </a>
@@ -123,10 +123,10 @@ joinText: Join Sunrise Bay Area
   <div class="col" style="justify-content: flex-start;">
     <h2>Contact Us</h2>
     <p>
-      For general inquries, feel free to send us an email at <a href="mailto:bayarea@sunrisemovement.org">bayarea@sunrisemovement.org</a>. 
+      For general inquries about Sunrise Bay Area, feel free to send us an email at <a href="mailto:bayarea@sunrisemovement.org">bayarea@sunrisemovement.org</a>. 
     </p>
     <p>
-      To request a Sunrise presentation for your organization, please <a href="https://bit.ly/sunrisepresentations">fill out this form</a>.
+      To request a Sunrise presentation for your organization, please <a href="https://bit.ly/sunrisepresentations">fill out this form</a>, and we'll get back to you as soon as possible.
     </p>
   </div>
 </div>
