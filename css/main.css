@@ -160,7 +160,7 @@ img {
 
 @media screen and (max-width: 820px) {
   .header-nav {
-      padding: 10px;
+      padding: 10px 0px;
   }
 }
 
@@ -297,8 +297,12 @@ p {
     }
 
     .row {
-        flex-direction: column;
+        display: unset;
         padding: unset;
+    }
+
+    .masthead, .parallax {
+        background-attachment: unset;
     }
 }
 
@@ -313,8 +317,12 @@ p {
     }
 
     .row {
-        flex-direction: column;
+        display: unset;
         padding: unset;
+    }
+
+    .masthead, .parallax {
+        background-attachment: unset;
     }
 }
 
@@ -400,9 +408,8 @@ p {
     justify-content: space-between;
 }
 
-.btn-group .btn {
-    margin: 20px;    
-    max-width: 300px;   
+.btn-group-vertical .btn {
+    margin: 1em 0em;      
 }
 
 .bg-primary {
