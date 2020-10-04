@@ -2,7 +2,7 @@
 title: Sunrise Bay Area
 mastheadImage: /img/splashpage-grey.png
 bannerWelcome: Join the movement for a livable future
-joinUrl: https://docs.google.com/forms/d/e/1FAIpQLSeU23FdVFlopiR_TEASxYoLILAcSZdFQtDJPLwXuhaoU1PatQ/viewform
+joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
 <div class="row">
@@ -89,13 +89,13 @@ joinText: Join Sunrise Bay Area
       Tune in each month as we speak with experts, share stories from real people affected by climate change, and map out what it will take to build a livable future. Now available on these platforms:
     </p>
     <div class="btn-group-vertical">
-      <a class="btn btn-primary" href="https://open.spotify.com/show/2wOP4ZBibLC081qmwYLpvx?si=Hs6XWPVRSVWgOnzV120Qcg" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/podcast" target="_blank" rel="noreferrer">
         Spotify
       </a>
-      <a class="btn btn-primary" href="https://www.soundcloud.com/sunrisebayradio" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/radio" target="_blank" rel="noreferrer">
       SoundCloud
       </a>
-      <a class="btn btn-primary" href="https://anchor.fm/sunrisebayradio" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/fm" target="_blank" rel="noreferrer">
       Anchor
       </a>
     </div>
@@ -112,10 +112,10 @@ joinText: Join Sunrise Bay Area
       Join our mailing list to hear about upcoming actions, trainings, and open meetings. And support our work by making a donation. Contributions like yours make what we do possible. 
     </p>
     <div class="btn-group-vertical">
-      <a class="btn btn-primary" href="https://bit.ly/joinsunrisebayarea" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/join" target="_blank" rel="noreferrer">
         Join Our Mailing List
       </a>
-      <a class="btn btn-primary" href="https://secure.actblue.com/donate/sunrisebayarea?refcode=website" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/donate" target="_blank" rel="noreferrer">
       Donate To The Hub
       </a>
     </div>
@@ -126,7 +126,7 @@ joinText: Join Sunrise Bay Area
       For general inquries about Sunrise Bay Area, feel free to send us an email at <a href="mailto:bayarea@sunrisemovement.org">bayarea@sunrisemovement.org</a>. 
     </p>
     <p>
-      To request a Sunrise presentation for your organization, please <a href="https://bit.ly/sunrisepresentations">fill out this form</a>, and we'll get back to you as soon as possible.
+      To request a Sunrise presentation for your organization, please <a href="https://srba.fyi/presreq">fill out this form</a>, and we'll get back to you as soon as possible.
     </p>
   </div>
 </div>
