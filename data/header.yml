@@ -1,12 +1,12 @@
 logo: /img/logo_yellow.png
 navbarNameTop: Sunrise Movement
 navbarNameBottom: Bay Area
-joinUrl: https://docs.google.com/forms/d/e/1FAIpQLSeU23FdVFlopiR_TEASxYoLILAcSZdFQtDJPLwXuhaoU1PatQ/viewform
+joinUrl: https://srba.fyi/join
 menuItems:
   - text: Blog
-    url: https://medium.com/@sunrisebayarea
+    url: https://srba.fyi/blog
   - text: Donate
-    url: https://secure.actblue.com/donate/sunrisebayarea?refcode=website
+    url: https://srba.fyi/donate
 banner:
   url: https://www.mobilize.us/sunrise2020/event/321587/?share_context=event_details&share_medium=website
   text: Learn how you can elect Green New Deal champions and defeat Trump.
