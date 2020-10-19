@@ -8,6 +8,6 @@ menuItems:
   - text: Donate
     url: https://srba.fyi/donate
 banner:
-  url: http://bit.ly/2020ElectoralGuide
+  url: https://srba.fyi/2020ElectoralGuide
   text: Learn how you can elect Green New Deal champions and defeat Trump.
   id: election2020-10-09

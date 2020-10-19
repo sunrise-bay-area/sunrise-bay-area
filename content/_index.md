@@ -22,7 +22,7 @@ joinText: Join Sunrise Bay Area
       Check out our 2020 Election Organizing Guide to find all the way you can plug into this election and win races across the country! Regardless of whether you’ve been involved with Sunrise before, whether you have 30 minutes or three hours a week, whether you’ve never phonebanked before or are ready to host your own events,  this guide has the right info for you!
     </p>
     <div class="btn-group-vertical">
-      <a class="btn btn-primary" href="https://bit.ly/2020ElectoralGuide" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/2020ElectoralGuide" target="_blank" rel="noreferrer">
         2020 Election Organizing Guide
       </a>
     </div>
@@ -112,10 +112,10 @@ joinText: Join Sunrise Bay Area
       Tune in each month as we speak with experts, share stories from real people affected by climate change, and map out what it will take to build a livable future. Now available on these platforms:
     </p>
     <div class="btn-group">
-      <a class="btn btn-primary" href="https://podcasts.apple.com/us/podcast/sunrise-bay-radio/id1534218076" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/Wx31" target="_blank" rel="noreferrer">
         Apple Podcasts
       </a>
-      <a class="btn btn-primary" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8zMDhmYWE0MC9wb2RjYXN0L3Jzcw==" target="_blank" rel="noreferrer">
+      <a class="btn btn-primary" href="https://srba.fyi/wo8m" target="_blank" rel="noreferrer">
       Google Podcasts
       </a>
     </div>
