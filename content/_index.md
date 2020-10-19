@@ -7,6 +7,29 @@ joinText: Join Sunrise Bay Area
 ---
 <div class="row">
   <div class="col">
+    <img src="/img/sba-endorsements.png">
+  </div>
+
+  <div class="col">
+    <h2>Take Election Action!</h2>
+    <p>
+      We’re weeks away from the one of the most pivotal elections of our lifetime! If you’re freaking out, you’re not alone. And if you want to get involved, now is the time. 
+    </p>
+    <p>
+      Each of us needs to step up and do everything we can to defeat Trump, flip the Senate, and elect candidates who will champion a Green New Deal if we want to have any hope of responding to the climate crisis with the urgency it demands and doing so in line with racial and economic justice.
+    </p>
+    <p>
+      Check out our 2020 Election Organizing Guide to find all the way you can plug into this election and win races across the country! Regardless of whether you’ve been involved with Sunrise before, whether you have 30 minutes or three hours a week, whether you’ve never phonebanked before or are ready to host your own events,  this guide has the right info for you!
+    </p>
+    <div class="btn-group-vertical">
+      <a class="btn btn-primary" href="https://srba.fyi/2020ElectoralGuide" target="_blank" rel="noreferrer">
+        2020 Election Organizing Guide
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
     <h2>Who We Are</h2>
     <p>
       We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​
@@ -29,7 +52,7 @@ joinText: Join Sunrise Bay Area
   </div>
   <div class="col">
       <div class="video-container">
-        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" title="California Just Transition and the Green New Deal"></iframe>
+        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" width="450" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" title="California Just Transition and the Green New Deal"></iframe>
       </div>
     </div>
 </div>
@@ -58,7 +81,10 @@ joinText: Join Sunrise Bay Area
 <div class="parallax" style="background-image: url('/img/2019-08-24-West-Summit.jpg')">
 </div>
 
-<div class="row">
+<div class="row reverse">
+  <div class="col">
+      <img src="/img/hubmap.jpg">
+  </div>
   <div class="col">
     <h2>Hub Structure</h2>
     <p>
@@ -67,9 +93,6 @@ joinText: Join Sunrise Bay Area
     <p>
       When everybody actively plugs in and gives what they can, our movement thrives, and we are able to grow our numbers, power, and influence. Fostering and sustaining our community in this way helps us achieve our goals of electing leaders who stand up for climate justice and the health and wellbeing of all people.
     </p>
-  </div>
-  <div class="col">
-      <img src="/img/hubmap.jpg">
   </div>
 </div>
 
@@ -88,7 +111,15 @@ joinText: Join Sunrise Bay Area
     <p>
       Tune in each month as we speak with experts, share stories from real people affected by climate change, and map out what it will take to build a livable future. Now available on these platforms:
     </p>
-    <div class="btn-group-vertical">
+    <div class="btn-group">
+      <a class="btn btn-primary" href="https://srba.fyi/Wx31" target="_blank" rel="noreferrer">
+        Apple Podcasts
+      </a>
+      <a class="btn btn-primary" href="https://srba.fyi/wo8m" target="_blank" rel="noreferrer">
+      Google Podcasts
+      </a>
+    </div>
+    <div class="btn-group">
       <a class="btn btn-primary" href="https://srba.fyi/podcast" target="_blank" rel="noreferrer">
         Spotify
       </a>
