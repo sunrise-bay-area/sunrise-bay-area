@@ -3,4 +3,4 @@
 	url = https://github.com/Herohtar/netlify-cms-oauth-firebase.git
 [submodule "themes/sunrise-hub"]
 	path = themes/sunrise-hub
-	url = git@github.com:sunrise-bay-area/sunrise-hub.git
+	url = https://github.com/sunrise-bay-area/sunrise-hub.git
