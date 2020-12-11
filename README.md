@@ -17,6 +17,17 @@ git clone --recurse-submodules git@github.com:sunrise-bay-area/sunrise-bay-area.
 # git clone --recurse-submodules https://github.com/sunrise-bay-area/sunrise-bay-area.git # clone over HTTPS.
 ```
 
+<details>
+<summary> (I've already cloned, but I need copies of the submodules.) </summary>
+
+No problem! Just run:
+
+```commandline
+git submodule init
+git submodule update
+```
+</details>
+
 This project uses [Hugo and Netlify CMS](https://www.netlifycms.org/docs/hugo/) for development and content management.
 
 [Hugo](https://gohugo.io/) is a static site generator. For Mac users, it can be installed from your command line with:
