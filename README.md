@@ -62,3 +62,25 @@ Using [Travis](https://travis-ci.org/), changes to this repo are automatically r
 
 See the [travis config](./.travis.yml) for more info.
 
+# Updating Submodule Dependencies
+
+From time to time, the submodules used by this project will need to be updated. 
+
+To update just the theme (recommended):
+```commandline
+git submodule update --remote themes/sunrise-hub
+```
+
+To update everything, run:
+```commandline
+git submodule update --remote
+```
+
+<details>
+<summary>(That didn't work).</summary>
+
+Are you using the latest version of `git`? [Downloading](https://git-scm.com/downloads) the most recent version may fix the issue.
+
+</details>
+
+If you're interested in making concurrent changes to this project and a submodule, please (carefully) follow [this guide](https://git-scm.com/book/en/v2/Git-Tools-Submodules#_working_on_a_submodule).
