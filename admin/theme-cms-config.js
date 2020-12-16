@@ -100,7 +100,17 @@ window.themeCMSConfig = {
               "name": "email",
               "widget": "string",
               "required": false
-            }
+            },
+            {
+              "label": "Donation URL",
+              "name": "donateUrl",
+              "widget": "string"
+            },
+            {
+              "label": "Donation Name",
+              "name": "donateName",
+              "widget": "string"
+            },
           ]
         }
       ]
