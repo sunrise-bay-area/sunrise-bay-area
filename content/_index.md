@@ -5,7 +5,7 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-{{< fb-block url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" >}}
+{{< fb-block url="Try this." >}}
 
 {{< text-block title="Who We Are" text="We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​ We're building a movement of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people. We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind." button-text-1="Learn About The Movement" button-url-1="https://www.sunrisemovement.org/about" button-text-2="Learn About The Green New Deal" button-url-2="https://www.sunrisemovement.org/green-new-deal" >}}
 
@@ -22,8 +22,6 @@ joinText: Join Sunrise Bay Area
 {{< image-block title="Hub Map" image="/img/hubmap.jpg" >}}
 
 {{< image-block title="Sunrise Bay Radio" image="/img/sbr_logo.png" >}}
-
-{{< parallax-block image="/img/fire_banner.png" >}}
 
 {{< text-block title="Sunrise Bay Radio" text="We are broadcasting the decade of the Green New Deal from our hub's new podcast, Sunrise Bay Radio! Each episode, our hosts Maritte and Richard take a deep dive into how climate change intersects with our highly interconnected society and what we can do to fight back! Tune in each month as we speak with experts, share stories from real people affected by climate change, and map out what it will take to build a livable future. Now available on these platforms: Apple Podcasts, Spotify, Google Podcasts, & Anchor." button-text-1="Apple Podcasts" button-url-1="https://srba.fyi/Wx31" button-text-2="Spotify" button-url-2="https://srba.fyi/podcast" >}}
 
