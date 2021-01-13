@@ -19,11 +19,7 @@ joinText: Join Sunrise Bay Area
 
 {{< text-block title="Hub Structure" text="The Sunrise Bay Area Hub has an organizational model that relies on the participation of our members (whether you can give 5 mins a week or 40 hours) to succeed. We also rely on mentoring members into holding leadership roles and providing them with the skills and tools to become effective organizers. When everybody actively plugs in and gives what they can, our movement thrives, and we are able to grow our numbers, power, and influence. Fostering and sustaining our community in this way helps us achieve our goals of electing leaders who stand up for climate justice and the health and wellbeing of all people." button-text-1="" button-url-1="" button-text-2="" button-url-2="" >}}
 
-{{< image-block title="Hub Map" image="/img/hubmap.jpg" >}}{{< image-block title="Hub Map" image="/img/hubmap.jpg" >}}
-
 {{< image-block title="Hub Map" image="/img/hubmap.jpg" >}}
-
-{{< image-block title=Hub Map image="/img/hubmap.jpg" >}}
 
 {{< image-block title="Sunrise Bay Radio" image="/img/sbr_logo.png" >}}
 
