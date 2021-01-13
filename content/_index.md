@@ -5,6 +5,10 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
+{{< image-block image="/img/fire_banner.png" >}}
+
+
+
 <div class="row">
   <div class="col">
     <img src="/img/sba-endorsements.png">
@@ -163,7 +167,9 @@ joinText: Join Sunrise Bay Area
 </div>
 
 <!-- -------------- DO NOT MODIFY (unless you know what you're doing). -------------- -->
+
 <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+
 <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
 
 <script>
