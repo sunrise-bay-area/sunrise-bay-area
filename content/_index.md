@@ -5,7 +5,7 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-![]()
+![hi]()
 
 {{< image-block image="/img/fire_banner.png" >}}
 
