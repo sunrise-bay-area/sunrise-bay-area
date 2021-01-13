@@ -23,6 +23,8 @@ joinText: Join Sunrise Bay Area
 
 {{< image-block title="Sunrise Bay Radio" image="/img/sbr_logo.png" >}}
 
+{{< parallax-block image="/img/fire_banner.png" >}}
+
 {{< text-block title="Sunrise Bay Radio" text="We are broadcasting the decade of the Green New Deal from our hub's new podcast, Sunrise Bay Radio! Each episode, our hosts Maritte and Richard take a deep dive into how climate change intersects with our highly interconnected society and what we can do to fight back! Tune in each month as we speak with experts, share stories from real people affected by climate change, and map out what it will take to build a livable future. Now available on these platforms: Apple Podcasts, Spotify, Google Podcasts, & Anchor." button-text-1="Apple Podcasts" button-url-1="https://srba.fyi/Wx31" button-text-2="Spotify" button-url-2="https://srba.fyi/podcast" >}}
 
 {{< parallax-block image="/img/trump_banner.jpg" >}}
