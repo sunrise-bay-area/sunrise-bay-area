@@ -5,15 +5,9 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-{{< fb-block url="https://www.sunrisemovement.org/about" >}}
 
 
-
-{{< fb-block url="https://www.sunrisemovement.org/about" >}}
-
-
-
-
+{{< fb-block url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" >}}
 
 {{< text-block title="Who We Are" text="We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​ We're building a movement of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people. We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind." button-text-1="Learn About The Movement" button-url-1="https://www.sunrisemovement.org/about" button-text-2="Learn About The Green New Deal" button-url-2="https://www.sunrisemovement.org/green-new-deal" >}}
 
