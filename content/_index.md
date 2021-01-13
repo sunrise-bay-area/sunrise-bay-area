@@ -5,9 +5,9 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-
-
 {{< tweet 1349196803896344576 >}}
+
+{{< image-block image="/img/2019-08-24-West-Summit.jpg" >}}
 
 <div class="row">
   <div class="col">
