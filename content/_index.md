@@ -5,9 +5,9 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-![Trump Action](/img/trump_banner.jpg "California Doesn't Have 4 More Years")
 
 
+{{< tweet 1349196803896344576 >}}
 
 <div class="row">
   <div class="col">
