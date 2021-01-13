@@ -5,7 +5,7 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-{{< fb-block url="facebook.com" >}}
+{{< fb-block url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" >}}
 
 <div class="row">
   <div class="col">
