@@ -5,7 +5,9 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-{{< text-block title="HELLOW" text="WOW" image="[object Object],[object Object]" >}}
+{{< text-block "Hello" "this is some text" [object Object] >}}
+
+{{< text-block title="HELLOW" text="WOW" image="\[object Object],\[object Object]" >}}
 
 <div class="row">
   <div class="col">
