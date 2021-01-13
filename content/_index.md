@@ -9,6 +9,8 @@ joinText: Join Sunrise Bay Area
 
 {{< text-block title="Who We Are" text="We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​ We're building a movement of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people. We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind." button-text-1="Learn About The Movement" button-url-1="https://www.sunrisemovement.org/about" button-text-2="Learn About The Green New Deal" button-url-2="https://www.sunrisemovement.org/green-new-deal" >}}
 
+
+
 {{< parallax-block image="/img/fire_banner.png" >}}
 
 {{< text-block title="What We Do" text="We’re making the climate crisis a decisive issue in the 2020 election by mobilizing millions, turning up the heat, and forcing the media to tell our story: our future is at stake, and we demand a real plan for addressing the climate crisis. As a local hub, Sunrise Bay Area is one of many in-person communities across this country making this movement real. We organize nonviolent direct actions, pressure local politicians, knock doors to get out the vote, make art, host trainings, and have a lot of fun! Check out our events to see how you can get involved in building a livable future for the Bay Area." >}}
