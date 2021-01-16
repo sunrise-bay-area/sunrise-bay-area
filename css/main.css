@@ -52,6 +52,7 @@ h2 {
     color: var(--base-primary-color);
     margin-top: .5em;
     margin-bottom: .5em;
+    text-align: center;
     font-family: var(--font);
     font-weight: bold;
     text-transform: uppercase;
@@ -78,6 +79,7 @@ a:hover, a:focus, a:active {
 }
 
 p {
+    line-height: 2rem;
     text-align: justify;
     font-size: 1.25rem;
     margin-bottom: 2em;
@@ -269,7 +271,7 @@ p {
 }
 
 .row {
-    padding: 2em;
+    padding: 2em 0em;
     margin: 0;
 }
 
