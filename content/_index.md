@@ -5,9 +5,13 @@ bannerWelcome: Join the movement for a livable future
 joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
-{{< fb-block title="California Just Transition and the Green New Deal" url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" >}}
+{{< image-block image="/img/ig-1.png" >}}
+
+{{< text-block title="No More Excuses!" text="People of color and the youth got Biden to office, and now it's time the he delivers! We have 100 demands for his first 100 days. Follow the link below to get your own Biden Bingo sheet of demands and play along on social media. Post your results with the hashtag #BidenBingo and win prizes for scoring a row or a blackout! " button-text-1="Sign Up To Play!" button-url-1="http://bit.ly/bidenbingo" button-text-2="" button-url-2="" >}}
 
 {{< text-block title="Who We Are" text="We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​ We're building a movement of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people. We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind." button-text-1="Learn About The Movement" button-url-1="https://www.sunrisemovement.org/about" button-text-2="Learn About The Green New Deal" button-url-2="https://www.sunrisemovement.org/green-new-deal" >}}
+
+{{< fb-block title="California Just Transition and the Green New Deal" url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBayAreaSunrise%2Fvideos%2F800272823709811%2F&show_text=0&width=476" >}}
 
 {{< parallax-block image="/img/fire_banner.png" >}}
 
@@ -32,7 +36,9 @@ joinText: Join Sunrise Bay Area
 {{< text-block title="Contact Us" text="For general inquries about Sunrise Bay Area, feel free to send us an email at bayarea@sunrisemovement.org. If you'd like a Sunrise presentation for your organization, please fill out the request form linked below, and we'll get back to you as soon as possible." button-text-1="Send Us An Email" button-url-1="mailto:bayarea@sunrisemovement.org" button-text-2="Request A Presentation" button-url-2="https://srba.fyi/presreq" >}}
 
 <!-- -------------- DO NOT MODIFY (unless you know what you're doing). -------------- -->
+
 <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+
 <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
 
 <script>
