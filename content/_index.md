@@ -7,7 +7,9 @@ joinText: Join Sunrise Bay Area
 ---
 {{< image-block image="/img/ig-1.png" >}}
 
-{{< text-block title="No More Excuses!" text="People of color and the youth got Biden to office, and now it's time the he delivers! We have 100 demands for his first 100 days. Follow the link below to get your own Biden Bingo sheet of demands and play along on social media. Post your results with the hashtag #BidenBingo and win prizes for scoring a row or a blackout! " button-text-1="Sign Up To Play!" button-url-1="http://bit.ly/bidenbingo" button-text-2="" button-url-2="" >}}
+{{< text-block title="No More Excuses!" text="People of color and the youth got Biden to office, and now it's time that he delivers! We have 100 demands for his first 100 days. Follow the link below to get your own Biden Bingo sheet of demands and play along on social media. Post your results with the hashtag #BidenBingo and win prizes for scoring a row or a blackout! " button-text-1="Sign Up To Play!" button-url-1="http://bit.ly/bidenbingo" button-text-2="" button-url-2="" >}}
+
+
 
 {{< text-block title="Who We Are" text="We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​ We're building a movement of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people. We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind." button-text-1="Learn About The Movement" button-url-1="https://www.sunrisemovement.org/about" button-text-2="Learn About The Green New Deal" button-url-2="https://www.sunrisemovement.org/green-new-deal" >}}
 
