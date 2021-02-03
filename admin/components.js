@@ -109,3 +109,23 @@ CMS.registerEditorComponent({
         return `{{< cal-block url="${obj["url"]}" >}}`;
     },
 });
+
+CMS.registerEditorComponent({
+    id: "wide-image-block",
+    label: "Wide Image Block",
+    fields: [
+        { name: "image", label: "Image", widget: "image",  default: "" },
+    ],
+    pattern: /{{< wide-image-block image="(.*)" >}}/,
+    fromBlock: function(match) {
+        return {
+            "image": match[1],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< wide-image-block image="${obj["image"]}" >}}`;
+    },
+    toPreview: function(obj) {
+        return `{{< wide-image-block image="${obj["image"]}" >}}`;
+    },
+});

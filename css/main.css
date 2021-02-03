@@ -81,12 +81,18 @@ a:hover, a:focus, a:active {
 p {
     line-height: 2rem;
     text-align: justify;
-    font-size: 1.25rem;
+    font-size: 18px;
     margin-bottom: 2em;
 }
 
 img {
     width: 100%;
+}
+
+ol li {
+    line-height: 2rem;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
@@ -96,6 +102,11 @@ img {
     z-index: 1;
     width: 100%;
     background-color: transparent;
+}
+
+.no-masthead {
+    position: unset;
+    background-color: #33342e;
 }
 
 .header-nav {
@@ -188,12 +199,6 @@ img {
     display: flex;
     height: 100%;
     flex-direction: column;
-}
-
-p {
-    text-align: justify;
-    font-size: 18px;
-    margin-bottom: 2em;
 }
 
 .banner {
@@ -440,5 +445,9 @@ p {
 .calendar {
     width: 100%;
     height: 600px;
+}
+
+.success {
+    color: limegreen;
 }
 

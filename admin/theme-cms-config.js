@@ -180,12 +180,8 @@ window.themeCMSConfig = {
           "widget": "select",
           "multiple": true,
           "options": ["main"],
-          "default": []
-        },
-        {
-          "label": "Masthead Image",
-          "name": "mastheadImage",
-          "widget": "image"
+          "default": [],
+          "required": false
         },
         {
           "label": "Content",
