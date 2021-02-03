@@ -7,9 +7,7 @@ joinText: Join Sunrise Bay Area
 ---
 {{< image-block image="/img/ig-1.png" >}}
 
-{{< text-block title="No More Excuses!" text="People of color and the youth got Biden to office, and now it's time that he delivers! We have 100 demands for his first 100 days. Follow the link below to get your own Biden Bingo sheet of demands and play along on social media. Post your results with the hashtag #BidenBingo and win prizes for scoring a row or a blackout! " button-text-1="Sign Up To Play!" button-url-1="http://bit.ly/bidenbingo" button-text-2="" button-url-2="" >}}
-
-
+{{< text-block title="No More Excuses!" text="People of color and the youth got Biden to office, and now it's time that he delivers! We have 100 demands for his first 100 days. Follow the link below to get your own Biden Bingo sheet of demands and play along on social media. Post your results with the hashtag #BidenBingo and win prizes for scoring a row or a blackout! " button-text-1="Play Biden Bingo!" button-url-1="/bidenbingo" button-text-2="" button-url-2="" >}}
 
 {{< text-block title="Who We Are" text="We are the Bay Area hub of Sunrise Movement. Sunrise is a youth-led movement to stop climate change and create millions of good jobs in the process.​ We're building a movement of young people to make climate change an urgent priority across America, end the corrupting influence of fossil fuel executives on our politics, and elect leaders who stand up for the health and wellbeing of all people. We work to pass Green New Deal legislation at the local, state, and federal level that addresses climate change while ensuring that communities on the front lines of this crisis, including fossil fuel workers, are not left behind." button-text-1="Learn About The Movement" button-url-1="https://www.sunrisemovement.org/about" button-text-2="Learn About The Green New Deal" button-url-2="https://www.sunrisemovement.org/green-new-deal" >}}
 
@@ -19,7 +17,9 @@ joinText: Join Sunrise Bay Area
 
 {{< text-block title="What We Do" text="We’re making the climate crisis a decisive issue in the 2020 election by mobilizing millions, turning up the heat, and forcing the media to tell our story: our future is at stake, and we demand a real plan for addressing the climate crisis. As a local hub, Sunrise Bay Area is one of many in-person communities across this country making this movement real. We organize nonviolent direct actions, pressure local politicians, knock doors to get out the vote, make art, host trainings, and have a lot of fun! Check out our events to see how you can get involved in building a livable future for the Bay Area." button-text-1="" button-url-1="" button-text-2="" button-url-2="" >}}
 
-{{< cal-block url="https://calendar.google.com/calendar/embed?title=Sunrise%20Bay%20Area%20Events&amp;src=sunrisemovement.org_5hjrpci2cqu30orbhfj1l23bck%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=sunrisemovement.org_p247h08c9322tutrdf7e70js8o%40group.calendar.google.com&amp;color=%23333333&amp;ctz=America%2FLos_Angeles&amp;showTabs=0&amp;showPrint=0" >}}
+<div class="col col-12 col-lg-6">
+  <iframe class="calendar" src="https://calendar.google.com/calendar/embed?title=Sunrise%20Bay%20Area%20Events&amp;src=sunrisemovement.org_5hjrpci2cqu30orbhfj1l23bck%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=sunrisemovement.org_p247h08c9322tutrdf7e70js8o%40group.calendar.google.com&amp;color=%23333333&amp;ctz=America%2FLos_Angeles&amp;showTabs=0&amp;showPrint=0" frameborder="0" scrolling="no"></iframe>
+</div>
 
 {{< parallax-block image="/img/2019-08-24-West-Summit.jpg" >}}
 
