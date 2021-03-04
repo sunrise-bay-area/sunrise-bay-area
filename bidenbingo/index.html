@@ -50,7 +50,12 @@
         <span class="header-nav-hub-name">Bay Area</span>
       </div>
     </a>
-    <ul class="header-menu">
+    <ul class="header-menu" id="menu">
+      <li class="header-mobile-name">
+        <span>Sunrise</span>
+        <img src="/img/logo_yellow.png" class="header-nav-logo" loading="lazy" alt="Sunrise Movement" />
+        <span>Bay Area</span>
+      </li>
       <li class="header-menu-list-item">
         <a href="/" class="header-menu-item">
             <span>Home</span>
@@ -71,13 +76,29 @@
       
       
       <li>
-    <a href="https://srba.fyi/join" class="btn btn-primary" rel="noreferrer" target="_blank">
+        <a href="https://srba.fyi/join" class="btn btn-primary" rel="noreferrer" target="_blank">
           <span>Join</span>
         </a>
-        
+      </li>
+      <li>
+        <button class="btn btn-primary" id="menuClose" onclick="hideMenu()">
+          <span>X</span>
+        </button>
       </li>
     </ul>
+    <button class="btn btn-primary" id="menuButton" onclick="showMenu()">
+      <span>Menu</span>
+    </button>
   </nav>
+  <script>
+    function showMenu() {
+      document.getElementById("menu").classList.add("flex");
+    }
+
+    function hideMenu() {
+      document.getElementById("menu").classList.remove("flex");
+    }
+  </script>
 </header>
 
 

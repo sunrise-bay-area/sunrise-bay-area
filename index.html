@@ -18,8 +18,7 @@
 </head>
 
   <body>
-    
-  <div class="index-header-positioner"><header class="main-header ">
+    <header class="main-header ">
   
   <div class="banner" id="banner">
     <a class="btn-primary" href="https://anchor.fm/sunrisebayradio" rel="noreferrer" target="_blank">
@@ -52,7 +51,12 @@
         <span class="header-nav-hub-name">Bay Area</span>
       </div>
     </a>
-    <ul class="header-menu">
+    <ul class="header-menu" id="menu">
+      <li class="header-mobile-name">
+        <span>Sunrise</span>
+        <img src="/img/logo_yellow.png" class="header-nav-logo" loading="lazy" alt="Sunrise Movement" />
+        <span>Bay Area</span>
+      </li>
       <li class="header-menu-list-item">
         <a href="/" class="header-menu-item">
             <span>Home</span>
@@ -73,21 +77,36 @@
       
       
       <li>
-    <a href="https://srba.fyi/join" class="btn btn-primary" rel="noreferrer" target="_blank">
+        <a href="https://srba.fyi/join" class="btn btn-primary" rel="noreferrer" target="_blank">
           <span>Join</span>
         </a>
-        
+      </li>
+      <li>
+        <button class="btn btn-primary" id="menuClose" onclick="hideMenu()">
+          <span>X</span>
+        </button>
       </li>
     </ul>
+    <button class="btn btn-primary" id="menuButton" onclick="showMenu()">
+      <span>Menu</span>
+    </button>
   </nav>
+  <script>
+    function showMenu() {
+      document.getElementById("menu").classList.add("flex");
+    }
+
+    function hideMenu() {
+      document.getElementById("menu").classList.remove("flex");
+    }
+  </script>
 </header>
 <div class="masthead" style="background-image: url(/img/splashpage-grey.png), radial-gradient(circle, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8))">
-      <div class="container center">
-        <h1 id="title-text"><span>Join the movement for a livable future</span></h1>
-        <a class="btn btn-primary" href=https://srba.fyi/join rel="noreferrer" target="_blank">
-          <span>Join Sunrise Bay Area</span>
-        </a>
-      </div>
+    <div class="container center">
+      <h1 id="title-text"><span>Join the movement for a livable future</span></h1>
+      <a class="btn btn-primary" href=https://srba.fyi/join rel="noreferrer" target="_blank">
+        <span>Join Sunrise Bay Area</span>
+      </a>
     </div>
   </div>
 
