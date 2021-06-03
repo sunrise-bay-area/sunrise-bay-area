@@ -2,7 +2,7 @@
 title: Sunrise Bay Area
 mastheadImage: /img/splashpage-grey.png
 bannerWelcome: Join the movement for a livable future
-joinUrl: http://act.sunrisebayarea.org
+joinUrl: https://srba.fyi/join
 joinText: Join Sunrise Bay Area
 ---
 {{< image-block image="/img/ig-1.png" >}}
