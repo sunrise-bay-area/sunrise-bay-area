@@ -2,7 +2,7 @@
 title: Sunrise Bay Area
 mastheadImage: /img/splashpage-grey.png
 bannerWelcome: Join the movement for a livable future
-joinUrl: https://srba.fyi/join
+joinUrl: http://act.sunrisebayarea.org
 joinText: Join Sunrise Bay Area
 ---
 {{< image-block image="/img/ig-1.png" >}}
@@ -33,7 +33,7 @@ joinText: Join Sunrise Bay Area
 
 {{< parallax-block image="/img/trump_banner.jpg" >}}
 
-{{< text-block title="Support Our Movement" text="Join our mailing list to hear about upcoming actions, trainings, and open meetings. And support our work by making a donation. Contributions like yours make what we do possible." button-text-1="Join Our Mailing List" button-url-1="https://srba.fyi/join" button-text-2="Donate To The Hub" button-url-2="https://srba.fyi/donate" >}}
+{{< text-block title="Support Our Movement" text="Join our mailing list to hear about upcoming actions, trainings, and open meetings. And support our work by making a donation. Contributions like yours make what we do possible." button-text-1="Join Our Mailing List" button-url-1="https://act.sunrisebayarea.org" button-text-2="Donate To The Hub" button-url-2="https://srba.fyi/donate" >}}
 
 {{< text-block title="Contact Us" text="For general inquries about Sunrise Bay Area, feel free to send us an email at bayarea@sunrisemovement.org. If you'd like a Sunrise presentation for your organization, please fill out the request form linked below, and we'll get back to you as soon as possible." button-text-1="Send Us An Email" button-url-1="mailto:bayarea@sunrisemovement.org" button-text-2="Request A Presentation" button-url-2="https://srba.fyi/presreq" >}}
 
