@@ -1,12 +1,12 @@
 logo: /img/logo_yellow.png
 navbarNameTop: Sunrise Movement
 navbarNameBottom: Bay Area
-joinUrl: https://srba.fyi/join
+joinUrl: https://docs.google.com/forms/d/e/1FAIpQLSfbWOA9jy53mDAzZUX2NrDGSAzlIpGcnsekM950UeYvR4yM4A/viewform
 menuItems:
   - text: Blog
-    url: https://srba.fyi/blog
+    url: https://sunrisebayarea.medium.com/
   - text: Donate
-    url: https://srba.fyi/donate
+    url: https://secure.actblue.com/donate/sunrisebayarea?refcode=website
 banner:
   url: https://anchor.fm/sunrisebayradio
   text: Tune in to the latest episode of Sunrise Bay Radio – available on all your favorite podcast apps!
